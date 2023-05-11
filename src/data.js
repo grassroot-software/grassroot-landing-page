@@ -49,7 +49,7 @@ export const faqs = [
     {
         id: 2,
         question: "Will I get a certificate once I complete Grassroot?",
-        answer: "Use content from the link: learn.grassroot.academy/blog/4 "
+        answer: "Use content from the link: learn.grassroot.academy/blog "
     },
     {
         id: 3,
