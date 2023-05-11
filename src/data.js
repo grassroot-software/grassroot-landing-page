@@ -49,7 +49,7 @@ export const faqs = [
     {
         id: 2,
         question: "Will I get a certificate once I complete Grassroot?",
-        answer: "Use content from the following link learn.grassroot.academy/blog/4"
+        answer: "Use content from the link: learn.grassroot.academy/blog/4 "
     },
     {
         id: 3,
@@ -59,7 +59,7 @@ export const faqs = [
     {
         id: 4,
         question: "Does Grassroot help me find a job?",
-        answer: "Use content from the following link: learn.grassroot.academy/job/2"
+        answer: "Use content from the link: learn.grassroot.academy/job/2 "
     },
     {
         id: 5,
