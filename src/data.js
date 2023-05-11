@@ -54,7 +54,7 @@ export const faqs = [
     {
         id: 3,
         question: "Does Grassroot help me find a job?",
-        answer: "Use content from the following link https://learn.grassroot.academy/job/2"
+        answer: "Use content from the following link "
     },
     {
         id: 4,
