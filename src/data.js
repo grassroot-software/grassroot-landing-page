@@ -49,25 +49,25 @@ export const faqs = [
     {
         id: 2,
         question: "Will I get a certificate once I complete Grassroot?",
-        answer: "Use content from the following link 'learn.grassroot.academy/blog/4' "
+        answer: "Use content from the following link learn.grassroot.academy/blog/4"
     },
     {
         id: 3,
-        question: "Does Grassroot help me find a job?",
-        answer: "Use content from the following link: 'learn.grassroot.academy/job/2' "
-    },
-    {
-        id: 4,
-        question: "Do you value mentorship over salary?",
-        answer: "Perhaps you are willing to take a lower-salaried job in exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth accepting a lower local or remote salary if the mentorship is great"
-    },
-    {
-        id: 5,
         question: "How Long does the program take?",
         answer: "You can learn at your convinient pace. At grassroot we are interested in your convinience even while still learning."
     },
     {
+        id: 4,
+        question: "Does Grassroot help me find a job?",
+        answer: "Use content from the following link: learn.grassroot.academy/job/2"
+    },
+    {
         id: 5,
+        question: "Do you value mentorship over salary?",
+        answer: "Perhaps you are willing to take a lower-salaried job in exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth accepting a lower local or remote salary if the mentorship is great"
+    },
+    {
+        id: 6,
         question: "What time of day is best to learn?",
         answer: "Any time of the day!."
     },
