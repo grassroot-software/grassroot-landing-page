@@ -43,28 +43,35 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How Long does the program take?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+        question: "What is a typical outcome after completing Grassroot?",
+        answer: "You may choose to work locally (in your town/city or nearby) which for many is limiting in terms of opportunities and potential pay. However, this can be an importantstep to get some experience before moving to a remote role. If you choose to focus on working remotely for a foreign company, you may significantly increase your potential salary."
     },
     {
         id: 2,
-        question: "What time of day is best to learn?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+        question: "Will I get a certificate once I complete Grassroot?",
+        answer: "Use content from the following link: 'https://learn.grassroot.academy/blog/4' "
     },
     {
         id: 3,
-        question: "How long should i study a topic?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "Does Grassroot help me find a job?",
+        answer: "Use content from the following link: 'https://learn.grassroot.academy/job/2' "
     },
     {
         id: 4,
-        question: "What is the curiculum?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        question: "Do you value mentorship over salary?",
+        answer: "Perhaps you are willing to take a lower-salaried job in exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth accepting a lower local or remote salary if the mentorship is great"
+    },
+    {
+        id: 5,
+        question: "How Long does the program take?",
+        answer: "You can learn at your convinient pace. At grassroot we are interested in your convinience even while still learning."
+    },
+    {
+        id: 5,
+        question: "What time of day is best to learn?",
+        answer: "Any time of the day!."
     },
 ]
-
-
-
 
 
 

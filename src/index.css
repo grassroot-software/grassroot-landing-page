@@ -237,9 +237,9 @@ section{
    section{
         margin-top: 7rem;
    }
-   .header{
-     height: fit-content;
-   }
+   /* .header{
+     height: 100%;
+   } */
    .header2{
     height: fit-content;
     }
