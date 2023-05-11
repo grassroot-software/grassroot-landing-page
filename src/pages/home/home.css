@@ -237,6 +237,7 @@ footer{
 
     .faqs__wrapper{
         grid-template-columns: 1fr;
+        
     }
     .testimonials{
         width: 75%;
