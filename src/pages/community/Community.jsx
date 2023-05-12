@@ -1,6 +1,5 @@
 import SmallerHeader from "../../components/SmallerHeader"
 import HeaderImage from "../../images/community.jpg"
-import {BsDiscord} from 'react-icons/bs'
 import MockUpImage from '../../images/logo.png'
 import {AiFillCaretRight} from 'react-icons/ai'
 
@@ -19,7 +18,6 @@ const Community = () => {
                 <img src={MockUpImage} alt='Grassroot' />
             </div>
             <div className='about__section-content'>
-                <a href = " " target='blank' rel='noreferrer noopener'><BsDiscord/></a>
                 <h1>YOU ARE NOT ALONE</h1>
                 <p>Join Over 1000+ People Grassroot Students Are From Countries Around The World</p>
                 <a href="https://learn.grassroot.academy/sign_up" className= 'btn lg' > Join Now! <AiFillCaretRight/> </a>

@@ -1,9 +1,8 @@
 import {FaCrown} from 'react-icons/fa'
 import SectionHead from './SectionHead'
-import { offers, programs } from '../data'
-import Card from '../UI/Card'
-import { Link } from 'react-router-dom'
-import {AiFillCaretRight} from 'react-icons/ai'
+import {programs } from '../data'
+import Card from '../UI/Card2'
+
 
 
 const Programs = () => {

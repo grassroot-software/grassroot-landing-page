@@ -3,7 +3,7 @@ const Header = ({title, image, children}) => {
     <div className="header">
             <div className="header__container">
             <div className="header__container-bg">
-                <img src={image} alt="Header bacground image"/>
+                <img src={image} alt="Header background"/>
             </div>
             <div className="header__content">
                 <h2>{title}</h2>

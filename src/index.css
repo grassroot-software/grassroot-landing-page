@@ -33,7 +33,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-gray-100);
-    color: var(--color-gray-200);
+    color: var(--color-gray-300);
     line-height: 1.7;
     overflow-x: hidden;
 }
@@ -119,24 +119,41 @@ section{
     margin-top: 10rem;
 }
 
-.section__head{
+.section__head2 h2{
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.section__head, .section__head2{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.section__head span{
+.section__head span, .section__head2 span{
     background: (var(--color-gray-500));
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
     font-size: 1.5rem;
 }
-.section__head h2{
-    color: var(--color-secondary);
-    font-size: 1.2rem;
-    font-weight: 400;
+.card2{
+    background: transparent;
+    border-color: var(--color-gray-400);
+    border: 2px solid;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 0 2.5rem 0 2.5rem;
+    transition: var(--transition);
+}
+.card2:hover{
+    border-color: var(--color-secondary);
+    cursor: default;
+    background: transparent;
 }
 
+.card2:hover h4{
+    color: var(--color-primary);
+}
 
 .card{
     background: var(--color-gray-500);
@@ -151,7 +168,7 @@ section{
     border-color: var(--color-gray-400);
     cursor: default;
 }
-.card span{
+.card span, .card2 span{
     width: 3rem;
     height: 3rem;
     background: var(--color-primary);
@@ -166,7 +183,7 @@ section{
     transition: var(--transition);
 }
 
-.card:hover span{
+.card:hover span, .card2:hover span{
     background: var(--color-secondary);
     color: var(--color-gray-600);
 }
@@ -242,9 +259,6 @@ section{
    section{
         margin-top: 7rem;
    }
-   /* .header{
-     height: 100%;
-   } */
    .header2{
     height: fit-content;
     }

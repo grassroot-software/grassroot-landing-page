@@ -32,17 +32,12 @@
     gap: 3rem;
     margin-top: 4rem;
 }
-.programs__progran a{
-    margin-top: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.programs__progran:hover a{
+
+.programs__program:hover{
     background-color: var(--color-secondary);
     color: var(--color-gray-600);
-}
 
+}
 /* Values */
 
 .values__container{
@@ -52,16 +47,11 @@
 }
 
 .values__image{
-    /* filter: saturate(0.25); */
     transition: var(--transition);
     border: 2px solid transparent;
     border-color: var(--color-primary);
     border-radius: 50%;
     overflow: hidden;
-}
-
-.values__image:hover{
-    filter: saturate(1);
 }
 
 .values__right > p{

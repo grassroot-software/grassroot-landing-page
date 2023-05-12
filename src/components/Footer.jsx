@@ -17,12 +17,13 @@ const Footer = () => {
                 </p>
             </article>
             <article>
-                <h4> Permalinks</h4>
-                <a href='#'> Grassroot</a>
-                <a href='#about'> About us</a>
-                <a href='#values'> Offers</a>
-                <a href='#'> FAQs</a>
-                <a href='#'> Testimonies</a>
+                <h4> Hyperlinks</h4>
+                <a href='#' > Grassroot</a>
+                <a href='https://learn.grassroot.academy/about'> About Us</a>
+                <a href='https://learn.grassroot.academy/blog/'> Blog</a>
+                <a href='https://learn.grassroot.academy/job/'> Offers</a>
+                <a href='https://learn.grassroot.academy/'> Academy</a>
+                
                 
                 
             </article>
@@ -33,7 +34,7 @@ const Footer = () => {
             </article>
             <article>
                 <h4> Contact Us</h4>
-                <a href='mailto:Management@grassroot.academy' target='_blank'>Send Us A Mail</a>
+                <a href='mailto:Management@grassroot.academy' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
             </article>
         </div>
         <div className="footer__copyright">

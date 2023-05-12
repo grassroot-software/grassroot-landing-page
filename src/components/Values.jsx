@@ -1,5 +1,5 @@
 import Image from '../images/01 (2).jpg'
-import SectionHead from './SectionHead'
+import SectionHead2 from './SectionHead2'
 import {GiCutDiamond} from 'react-icons/gi'
 import { values } from '../data'
 import Card from '../UI/Card'
@@ -15,7 +15,7 @@ const Values = () => {
                 </div>
             </div>
             <div className='values__right'>
-                <SectionHead icon={<GiCutDiamond/>} title="Our full stack curriculum is free and supported by a passionate community of web engineers from Harvard University and Beyond" />
+                <SectionHead2 icon={<GiCutDiamond/>} title="Our full stack curriculum is free and supported by a passionate community of web engineers from Harvard University and Beyond" />
                 <p>
                     
                 </p>
