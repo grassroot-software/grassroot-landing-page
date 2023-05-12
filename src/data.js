@@ -1,4 +1,6 @@
-import {SiOpenaigym} from 'react-icons/si'
+import {FaDatabase} from 'react-icons/fa'
+import {GiTiedScroll} from 'react-icons/gi'
+import {DiRuby} from 'react-icons/di'
 
 export const links = [
     {
@@ -14,27 +16,70 @@ export const links = [
 export const values = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Self Paced Curriculum",
-        desc: "You study at your free time. There are no deadlines for assignments and projects.."
+        icon: <GiTiedScroll/>,
+        title: "How it works",
+        desc: "This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order."
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "No Enrollment Fees",
-        desc: "You only pay tuition after we train and connect you to our network of employers for remote job placements home and abroad."
+        icon: <GiTiedScroll/>,
+        title: "Learn",
+        desc: "In this Module, you Learn from a curriculum with the best curated online tutorials, blogs, and courses. "
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "From Havard To Africa",
-        desc: "The Grassroot platform is run by an open community of experienced web engineers from Havard University and Beyond, they Volunteer thier time and expertise to create a smooth learning path in web development that is easy to understand and certian to land a job."
+        icon: <GiTiedScroll/>,
+        title: "Build",
+        desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites"
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: <GiTiedScroll/>,
         title: "Verified Certificate",
         desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate And Skills Needed In The Global Job Market"
+    },
+]
+
+export const programs = [
+    {
+        id: 1,
+        icon: <DiRuby/>,
+        title: "RUBY",
+    },
+    {
+        id: 2,
+        icon: <FaDatabase/>,
+        title: "DATABASES",
+    },
+    {
+        id: 3,
+        icon: <GiTiedScroll/>,
+        title: "RUBY ON RAILS",
+    },
+    {
+        id: 4,
+        icon: <GiTiedScroll/>,
+        title: "JAVASCRIPT",
+    },
+    {
+        id: 5,
+        icon: <GiTiedScroll/>,
+        title: "INTERMEDIATE HTML AND CSS",
+    },
+    {
+        id: 6,
+        icon: <GiTiedScroll/>,
+        title: "ADVANCED HTML AND CSS",
+    },
+    {
+        id: 7,
+        icon: <GiTiedScroll/>,
+        title: "NODEJS",
+    },
+    {
+        id: 8,
+        icon: <GiTiedScroll/>,
+        title: "GETTING HIRED",
     },
 ]
 
@@ -49,8 +94,9 @@ export const faqs = [
     {
         id: 2,
         question: "Will I get a certificate once I complete Grassroot?",
-        answer: "Use content from the link: learn.grassroot.academy/blog "
+        answer: " Yes, we do provide a certificate upon your completion of Grassroot. However, The best employers out there don't care whether or not you have an 'official' degree. What matters to them is that you know how to get the job done. By studying at Grassroot and completing the full-time program, you will have the technical skills, soft skills, tenacity, and determination that many accredited programs at universities can't provide. Additionally, you'll have a large portfolio of documented projects you built during the training to help showcase your skills. A verified certificate shows that you have successfully passed a Grassroot course in the verified track. A verified certificate from Grassroot can provide proof for an employer, school, or other institution that you have successfully completed an online course. When you pass your course, you'll receive your professional certificate. You can share your certificate with friends, employers and others through an easy-to-share link we provide, or in certain cases stack it towards a larger credent "
     },
+    // Sometimes you want to take a course just for the sheer joy of learning something new. But sometimes you need to complete a course for a better job, a promotion, or a college application.
     {
         id: 3,
         question: "How Long does the program take?",
@@ -59,7 +105,7 @@ export const faqs = [
     {
         id: 4,
         question: "Does Grassroot help me find a job?",
-        answer: "Use content from the link: learn.grassroot.academy/job/2 "
+        answer: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },
     {
         id: 5,

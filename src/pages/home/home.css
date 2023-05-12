@@ -13,6 +13,7 @@
 }
 .about__section-content p{
     margin-bottom: 1rem;
+    color: var(--color-gray-500);
 }
 
 .about__Vision-container{
@@ -237,7 +238,6 @@ footer{
 
     .faqs__wrapper{
         grid-template-columns: 1fr;
-        
     }
     .testimonials{
         width: 75%;

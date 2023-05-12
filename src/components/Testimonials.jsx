@@ -1,10 +1,29 @@
-import { useState } from "react"
+import { useState, useEffect  } from "react"
 import SectionHead from "./SectionHead"
 import {ImQuotesLeft} from 'react-icons/im'
 import Card from "../UI/Card"
 import{IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io'
 import { testimonials } from "../data"
 
+
+
+
+function Slideshow() {
+    const [currenttestimonials, setCurrenttestimonials] = useState(0);
+
+
+    useEffect(() => {
+        const intervalId = setTimeout(() => {
+          if (currenttestimonials === testimonials.length - 1) {
+            setCurrenttestimonials(0);
+          } else {
+            setCurrenttestimonials(currenttestimonials + 1);
+          }
+        }, 3000);
+    
+        return () => clearTimeout(intervalId);
+      }, [currenttestimonials]);
+}
 
 
 const Testimonials = () => {    

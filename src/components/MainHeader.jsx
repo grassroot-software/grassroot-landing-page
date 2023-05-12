@@ -8,7 +8,7 @@ const MainHeader = () =>{
 
         <>
         <Header title ="WELCOME TO GRASSROOT ACADEMY" image={HeaderImage}>
-        Learn Online At Your Own Free Time And Get Certified.
+        YOUR CARRER IN WEB DEVELOPMENT STARTS HERE.
         <br></br>
         <br></br>
         <br></br> 

@@ -33,7 +33,7 @@ const Footer = () => {
             </article>
             <article>
                 <h4> Contact Us</h4>
-                <a href='grassroot@gmail.com' target='_blank'>Send Us A Mail</a>
+                <a href='mailto:Management@grassroot.academy' target='_blank'>Send Us A Mail</a>
             </article>
         </div>
         <div className="footer__copyright">
