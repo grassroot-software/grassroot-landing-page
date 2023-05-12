@@ -15,7 +15,7 @@ const Values = () => {
                 </div>
             </div>
             <div className='values__right'>
-                <SectionHead2 icon={<GiCutDiamond/>} title="Our full stack curriculum is free and supported by a passionate community of web engineers from Harvard University and Beyond" />
+                <SectionHead2 icon={<GiCutDiamond/>} title="Our full stack curriculum is free and supported by a passionate community of web engineers from Harvard University and Beyond. " />
                 <p>
                     
                 </p>
