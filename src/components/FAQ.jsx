@@ -4,7 +4,7 @@ import { AiOutlineMinus } from "react-icons/ai"
 
 
 
-const FAQ = ({question, answer}) => {
+const FAQ = ({question, answer1, answer2}) => {
     const [isAnswerShowing, setIsANswerShowing] = useState(false)
 
   return (
@@ -17,7 +17,7 @@ const FAQ = ({question, answer}) => {
                 }     
             </button>
         </div>
-       {isAnswerShowing && <p>{answer}</p>}
+       {isAnswerShowing && <p>{answer1} <br></br> <br></br>{answer2}</p>}
     </article>
   )
 }

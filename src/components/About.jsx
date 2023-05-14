@@ -1,4 +1,4 @@
-import StoryImage from '../images/storyImage.jpg'
+import StoryImage from '../images/she.jpg'
 
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
                 </p>
             </div>
             <div className='about__Vision-image'>
-                <img src={StoryImage} alt='About Image' />
+                <img src={StoryImage} alt='About Us' />
             </div>
         </div>
     </section>

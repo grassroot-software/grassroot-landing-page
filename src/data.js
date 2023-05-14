@@ -35,6 +35,12 @@ export const values = [
     {
         id: 4,
         icon: <GiTiedScroll/>,
+        title: "Connect",
+        desc: "You are not alone. Learn and get help from our friendly community of beginners and experienced developers."
+    },
+    {
+        id: 5,
+        icon: <GiTiedScroll/>,
         title: "Verified Certificate",
         desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate And Skills Needed In The Global Job Market"
     },
@@ -88,34 +94,29 @@ export const programs = [
 export const faqs = [
     {
         id: 1,
-        question: "What is a typical outcome after completing Grassroot?",
-        answer: "You may choose to work locally (in your town/city or nearby) which for many is limiting in terms of opportunities and potential pay. However, this can be an importantstep to get some experience before moving to a remote role. If you choose to focus on working remotely for a foreign company, you may significantly increase your potential salary."
+        question: "How does Grassroot work?",
+        answer1: "The Free path- walk through the full programme via self study- Download guild here.",
+        answer2: "Or Career Coach- Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a lower feein exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth paying a small fee for a remote mentor in a  1 on 1 Technical Coaching You will Get matched with a personal mentor who works in the industry. Live, personal mentorship from industry experts over a regularly scheduled zoom classes tailored to suit your free time"
     },
     {
         id: 2,
-        question: "Will I get a certificate once I complete Grassroot?",
-        answer: " Yes, we do provide a certificate upon your completion of Grassroot. However, The best employers out there don't care whether or not you have an 'official' degree. What matters to them is that you know how to get the job done. By studying at Grassroot and completing the full-time program, you will have the technical skills, soft skills, tenacity, and determination that many accredited programs at universities can't provide. Additionally, you'll have a large portfolio of documented projects you built during the training to help showcase your skills. A verified certificate shows that you have successfully passed a Grassroot course in the verified track. A verified certificate from Grassroot can provide proof for an employer, school, or other institution that you have successfully completed an online course. When you pass your course, you'll receive your professional certificate. You can share your certificate with friends, employers and others through an easy-to-share link we provide, or in certain cases stack it towards a larger credent "
+        question: "What is a typical outcome after completing Grassroot?",
+        answer1: "You may choose to work locally (in your town/city or nearby) which for many is limiting in terms of opportunities and potential pay. However, this can be an importantstep to get some experience before moving to a remote role. If you choose to focus on working remotely for a foreign company, you may significantly increase your potential salary."
     },
-    // Sometimes you want to take a course just for the sheer joy of learning something new. But sometimes you need to complete a course for a better job, a promotion, or a college application.
     {
         id: 3,
-        question: "How Long does the program take?",
-        answer: "You can learn at your convinient pace. At grassroot we are interested in your convinience even while still learning."
-    },
+        question: "Will I get a certificate once I complete Grassroot?",
+        answer1: " Yes, we do provide a certificate upon your completion of Grassroot. However, The best employers out there don't care whether or not you have an 'official' degree. What matters to them is that you know how to get the job done. By studying at Grassroot and completing the full-time program, you will have the technical skills, soft skills, tenacity, and determination that many accredited programs at universities can't provide. Additionally, you'll have a large portfolio of documented projects you built during the training to help showcase your skills. A verified certificate shows that you have successfully passed a Grassroot course in the verified track. A verified certificate from Grassroot can provide proof for an employer, school, or other institution that you have successfully completed an online course. When you pass your course, you'll receive your professional certificate. You can share your certificate with friends, employers and others through an easy-to-share link we provide, or in certain cases stack it towards a larger credent "
+    },  
     {
         id: 4,
-        question: "Does Grassroot help me find a job?",
-        answer: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
+        question: "How Long does the program take?",
+        answer1: "The full-time technical curriculum takes 4 to 6 months. However, since the program is self paced, if you invest enough time studying every day, you are certain to graduate earlier ."
     },
     {
         id: 5,
-        question: "Do you value mentorship over salary?",
-        answer: "Perhaps you are willing to take a lower-salaried job in exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth accepting a lower local or remote salary if the mentorship is great"
-    },
-    {
-        id: 6,
-        question: "What time of day is best to learn?",
-        answer: "Any time of the day!."
+        question: "Does Grassroot help me find a job?",
+        answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },
 ]
 
@@ -141,6 +142,6 @@ export const testimonials = [
         name: "Amber Mulit",
         quote: "The projects in Grassroot were a perfect mix of difficulty, allowing me to gain exposure to different technologies and feel challenged without feeling overwhelmed.",
         job: "Junior Web Engineer At BlueChip Solutions, Nairobi Kenya 🇰🇪",
-        avatar: require("./images/avatar3.jpg")
+        avatar: require("./images/avatar2.jpg")
     },
 ]

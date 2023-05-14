@@ -1,4 +1,4 @@
-const Header = ({title, image, children}) => {
+const Header = ({title, image, subtitle, children}) => {
   return (
     <div className="header">
             <div className="header__container">
@@ -7,6 +7,7 @@ const Header = ({title, image, children}) => {
             </div>
             <div className="header__content">
                 <h2>{title}</h2>
+                <p>{subtitle}</p>
                 <p>{children}</p>
             </div>
             </div>

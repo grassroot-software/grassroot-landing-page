@@ -20,13 +20,13 @@ const Navbar = () => {
             links.map(({name, path}, index) =>{
               return(
                 <li key={index}>
-                  <NavLink to={path} className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> setIsNavShowing(prev => !prev)}>{name}</NavLink>
+                  <NavLink to={path} className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> setIsNavShowing(prev => !prev)}>{name} </NavLink>
                 </li>
               )
             })
           }
         </ul>
-        <a className='btngs' href='https://learn.grassroot.academy '>Apply to Academy</a>
+        <a className='btngs' href='https://learn.grassroot.academy '>Start Learning</a>
         <button className='nav__toggle-btn' onClick={()=> setIsNavShowing(prev => !prev)}> 
         {
           isNavShowing ? <MdOutlineClose /> :  <GoThreeBars />
