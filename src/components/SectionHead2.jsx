@@ -1,4 +1,4 @@
-const SectionHead = ({icon, title, className}) => {
+const SectionHead2 = ({icon, title, className}) => {
     return (
       <div className= {`section__head2 ${className}`}>
           <span>{icon}</span>
@@ -7,4 +7,4 @@ const SectionHead = ({icon, title, className}) => {
     )
   }
   
-  export default SectionHead
+  export default SectionHead2

@@ -1,5 +1,5 @@
 import Image from '../images/01 (2).jpg'
-import SectionHead2 from './SectionHead2'
+import SectionHead from './SectionHead'
 import {GiCutDiamond} from 'react-icons/gi'
 import { values } from '../data'
 import Card from '../UI/Card'
@@ -10,15 +10,16 @@ const Values = () => {
     <section className='values'>
         <div className='container values__container'>
             <div className='values__left'>
+                <p>
+                <SectionHead icon={<GiCutDiamond/>} title="HOW IT WORKS " />
+                </p>
                 <div className='values__image'>
                     <img src={Image} alt='Values Images'/>
                 </div>
+                
             </div>
+            
             <div className='values__right'>
-                <SectionHead2 icon={<GiCutDiamond/>} title="Our full stack curriculum is free and supported by a passionate community of web engineers from Harvard University and Beyond. " />
-                <p>
-                    
-                </p>
                 <div className='values__wrapper'>
                     {
                         values.map(({id, icon, title, desc}) => {

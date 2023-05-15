@@ -120,9 +120,9 @@ section{
 }
 
 .section__head2 h2{
-    color: var(--color-secondary);
-    font-size: 1.2rem;
-    font-weight: 500;
+    color: #aa7f3e;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 .section__head, .section__head2{
     display: flex;
@@ -130,15 +130,17 @@ section{
     gap: 1rem;
 }
 .section__head span, .section__head2 span{
-    background: (var(--color-gray-500));
+    /* background: (var(--color-gray-500)); */
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
     font-size: 1.5rem;
 }
+.section__head2 span{
+    color: #aa7f3e;
+}
 .card2{
     background: transparent;
-    border-color: var(--color-gray-400);
     border: 2px solid;
     text-align: center;
     padding: 2rem 1rem;
@@ -146,7 +148,7 @@ section{
     transition: var(--transition);
 }
 .card2:hover{
-    border-color: var(--color-secondary);
+    border-color: #aa7f3e;
     cursor: default;
     background: transparent;
 }
@@ -182,6 +184,7 @@ section{
     border-radius: 1rem;
     transition: var(--transition);
 }
+
 
 .card:hover span, .card2:hover span{
     background: var(--color-secondary);

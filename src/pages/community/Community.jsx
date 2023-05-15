@@ -26,19 +26,6 @@ const Community = () => {
         </div>
         
     </section>
-
-
-    {/* <section className='community'>
-        <div className='about__Vision-image'>
-                <img src={MockUpImage} alt='About Image' />
-            </div>
-        <div className='container community__container'>
-            <div className='community__wrapper'>
-                <a href = " " target='blank' rel='noreferrer noopener'><BsDiscord/></a>
-            </div>
-        </div>
-        
-    </section> */}
     </>
   )
 }

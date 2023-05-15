@@ -17,33 +17,40 @@ export const values = [
     {
         id: 1,
         icon: <GiTiedScroll/>,
-        title: "How it works",
-        desc: "This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order."
+        title: "Register",
+        desc: "Register on the Grassroot platform to get started."
     },
     {
         id: 2,
         icon: <GiTiedScroll/>,
         title: "Learn",
-        desc: "In this Module, you Learn from a curriculum with the best curated online tutorials, blogs, and courses. "
+        desc: "Learn from a curriculum easy to understand and certain to land you a job upon graduation."
     },
     {
         id: 3,
         icon: <GiTiedScroll/>,
-        title: "Build",
-        desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites"
+        title: "The Curriculum",
+        desc: "Get access to the Grassroot online curriculm designed by experienced Web engineers from Harvard and Beyond."
     },
     {
         id: 4,
         icon: <GiTiedScroll/>,
-        title: "Connect",
-        desc: "You are not alone. Learn and get help from our friendly community of beginners and experienced developers."
+        title: "Verified Certificate",
+        desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
     },
     {
         id: 5,
         icon: <GiTiedScroll/>,
-        title: "Verified Certificate",
-        desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate And Skills Needed In The Global Job Market"
+        title: "Build",
+        desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
     },
+    {
+        id: 6,
+        icon: <GiTiedScroll/>,
+        title: "Connect With Other Students",
+        desc: "You are not alone. Learn and get help from our friendly community of students and experts where weekly zoom meetings are held to discuss coding challenges and progress."
+    },
+   
 ]
 
 export const programs = [
@@ -92,29 +99,30 @@ export const programs = [
 
 
 export const faqs = [
+    // {
+    //     id: 1,
+    //     question: "How does Grassroot work?",
+    //     answer1: "The Free path- walk through the full programme via self study- Download guild here.",
+    //     answer2: "Or Career Coach- Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a lower feein exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth paying a small fee for a remote mentor in a  1 on 1 Technical Coaching You will Get matched with a personal mentor who works in the industry. Live, personal mentorship from industry experts over a regularly scheduled zoom classes tailored to suit your free time"
+    // },
     {
         id: 1,
-        question: "How does Grassroot work?",
-        answer1: "The Free path- walk through the full programme via self study- Download guild here.",
-        answer2: "Or Career Coach- Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a lower feein exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth paying a small fee for a remote mentor in a  1 on 1 Technical Coaching You will Get matched with a personal mentor who works in the industry. Live, personal mentorship from industry experts over a regularly scheduled zoom classes tailored to suit your free time"
+        question: "What is a typical outcome after completing Grassroot?",
+        answer1: "You may choose to work locally (in your town/city or nearby) which for many is limiting in terms of opportunities and potential pay. However, this can be an important step to get some experience before moving to a remote role. If you choose to focus on working remotely for a foreign company, you may significantly increase your potential salary.",
+        answer2: "As for students who are already Working professionals before joining Grassroot, The get an opprtunity to upgrade their skills, scale the professional ladder and enter the portals of Management when they apply the technical and analytical skills gained from Grassroot. The value proposition of our platform is that it helps them not only multiply heir earning manifold bt helps them break the ceiling and offers access to opurtunities for growth."
     },
     {
         id: 2,
-        question: "What is a typical outcome after completing Grassroot?",
-        answer1: "You may choose to work locally (in your town/city or nearby) which for many is limiting in terms of opportunities and potential pay. However, this can be an importantstep to get some experience before moving to a remote role. If you choose to focus on working remotely for a foreign company, you may significantly increase your potential salary."
-    },
-    {
-        id: 3,
         question: "Will I get a certificate once I complete Grassroot?",
         answer1: " Yes, we do provide a certificate upon your completion of Grassroot. However, The best employers out there don't care whether or not you have an 'official' degree. What matters to them is that you know how to get the job done. By studying at Grassroot and completing the full-time program, you will have the technical skills, soft skills, tenacity, and determination that many accredited programs at universities can't provide. Additionally, you'll have a large portfolio of documented projects you built during the training to help showcase your skills. A verified certificate shows that you have successfully passed a Grassroot course in the verified track. A verified certificate from Grassroot can provide proof for an employer, school, or other institution that you have successfully completed an online course. When you pass your course, you'll receive your professional certificate. You can share your certificate with friends, employers and others through an easy-to-share link we provide, or in certain cases stack it towards a larger credent "
     },  
     {
-        id: 4,
+        id: 3,
         question: "How Long does the program take?",
         answer1: "The full-time technical curriculum takes 4 to 6 months. However, since the program is self paced, if you invest enough time studying every day, you are certain to graduate earlier ."
     },
     {
-        id: 5,
+        id: 4,
         question: "Does Grassroot help me find a job?",
         answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },
