@@ -248,6 +248,10 @@ footer{
     .about__Vision .about__Vision-image{
         grid-row: 1;
     }
+    .about__Vision-image{
+        width: 80%;
+        margin-inline: auto;
+    }
 
     .programs__wrapper{
         grid-template-columns: 1fr 1fr;
