@@ -10,7 +10,7 @@ const Path = () => {
         <div className='container path__container'>
             
             <div className='path__section-content'>
-                <h2> CHOOSE YOUR PATH </h2>
+                <h2> CHOOSE YOUR PATH </h2><br></br>
                 <h3> <SiMediamarkt/>  The Free path- <i>Self study</i></h3>
                 <p>
                 Our mission is to provide quality training in software engineering at no upfront cost to 
