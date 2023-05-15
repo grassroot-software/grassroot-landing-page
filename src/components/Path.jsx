@@ -11,13 +11,13 @@ const Path = () => {
             
             <div className='path__section-content'>
                 <h2> CHOOSE YOUR PATH </h2><br></br>
-                <h3> <SiMediamarkt/>  The Free path- <i>Self study</i></h3>
+                <h3> <SiMediamarkt/>  The Free Path- <i>Self Study</i></h3>
                 <p>
                 Our mission is to provide quality training in software engineering at no upfront cost to 
                 our students. Hence the Grassroot curriculum was designed to be highly digestable and easy 
                 to understand so that students can study the full technical curriculum on their own without a mentor .
                 </p>
-                <h3> <FaChalkboardTeacher/>  Careeer Coach- <i>Paid Path</i></h3>
+                <h3> <FaChalkboardTeacher/> The Paid Path- <i> Careeer Coach </i></h3>
                 <p>
                 Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a low fee in exchange 
                 for great mentoring. Good mentorship, especially in the early stages of your career, is really important, 
