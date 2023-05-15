@@ -26,7 +26,7 @@ const Navbar = () => {
             })
           }
         </ul>
-        <a className='btngs' href='https://learn.grassroot.academy '>Start Learning</a>
+        {/* <a className='btngs' href='https://learn.grassroot.academy '>Start Learning</a> */}
         <button className='nav__toggle-btn' onClick={()=> setIsNavShowing(prev => !prev)}> 
         {
           isNavShowing ? <MdOutlineClose /> :  <GoThreeBars />

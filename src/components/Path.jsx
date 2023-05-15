@@ -1,6 +1,6 @@
 import gif from '../images/gif.webp'
 import {GiCheckMark} from 'react-icons/gi'
-import {SiMediamarkt} from 'react-icons/si'
+// import {SiMediamarkt} from 'react-icons/si'
 import {FaChalkboardTeacher} from 'react-icons/fa'
 
 

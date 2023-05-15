@@ -20,9 +20,6 @@ const Footer = () => {
                 <h4> Hyperlinks</h4>
                 <a href='/' > Grassroot</a>
                 <a href='https://learn.grassroot.academy/about'> About Us</a>
-                <a href='https://learn.grassroot.academy/blog/'> Blog</a>
-                <a href='https://learn.grassroot.academy/job/'> Offers</a>
-                <a href='https://learn.grassroot.academy/'> Academy</a>
                 
                 
                 

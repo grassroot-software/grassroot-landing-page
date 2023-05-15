@@ -8,9 +8,21 @@ export const links = [
         path: '/'
     },
     {
-        name: "Join the community",
+        name: "About Us",
+        path: 'https://learn.grassroot.academy/about'
+    },
+    {
+        name: "Register",
+        path: 'https://learn.grassroot.academy/sign_up'
+    },
+    {
+        name: "Login",
+        path: 'https://learn.grassroot.academy/sign_in'
+    },
+    {
+        name: "Join students on Discord",
         path: '/discord'
-    }
+    },
 ]
 
 export const values = [
@@ -35,20 +47,20 @@ export const values = [
     {
         id: 4,
         icon: <GiTiedScroll/>,
-        title: "Verified Certificate",
-        desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
-    },
-    {
-        id: 5,
-        icon: <GiTiedScroll/>,
         title: "Build",
         desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
     },
     {
-        id: 6,
+        id: 5,
         icon: <GiTiedScroll/>,
         title: "Connect With Other Students",
         desc: "You are not alone. Learn and get help from our friendly community of students and experts where weekly zoom meetings are held to discuss coding challenges and progress."
+    },
+    {
+        id: 6,
+        icon: <GiTiedScroll/>,
+        title: "Verified Certificate",
+        desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
     },
    
 ]

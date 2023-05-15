@@ -1,6 +1,6 @@
 import Image from '../images/01 (2).jpg'
 import SectionHead from './SectionHead'
-import {GiCutDiamond} from 'react-icons/gi'
+// import {GiCutDiamond} from 'react-icons/gi'
 import { values } from '../data'
 import Card from '../UI/Card'
 
@@ -11,7 +11,7 @@ const Values = () => {
         <div className='container values__container'>
             <div className='values__left'>
                 <p>
-                <SectionHead icon={<GiCutDiamond/>} title="HOW IT WORKS " />
+                <SectionHead  title="HOW IT WORKS " />
                 </p>
                 <div className='values__image'>
                     <img src={Image} alt='Values Images'/>
