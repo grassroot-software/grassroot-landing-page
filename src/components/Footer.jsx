@@ -11,9 +11,9 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo"/>
                 </Link>
                 <p>
-                Our mission is to achieve the goal in training 1 million young Africans in 
-                advanced web development courses and connect them to our network of 
-                remote employers home and abroad.
+                We believe it's time for mother Africa to rise. Our mission is to achieve the goal in 
+                training 1 million young Africans in advanced Software Enginering courses and connect them to a 
+                network of remote employers home and abroad. To accelerate the Digital revolution in Africa and lift lives out of poverty .
                 </p>
             </article>
             <article>
@@ -35,8 +35,8 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-                <small>Grassroot Theme Powered by: Grassroot Software Academy</small>
-            </div>
+            <small>Grassroot Theme Powered by: Grassroot Software Academy</small>
+        </div>
     </footer>
   )
 }

@@ -2,7 +2,7 @@
 
 const Card = ({className, children}) => {
   return (
-    <article className={`card ${className}`}>
+    <article className={`card ${className}`} >
         {children}</article>
   )
 }

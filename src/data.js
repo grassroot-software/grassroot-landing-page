@@ -13,7 +13,7 @@ export const links = [
     },
     {
         name: "Register",
-        path: 'https://learn.grassroot.academy/sign_up'
+        path: '/signup'
     },
     {
         name: "Login",
@@ -35,29 +35,23 @@ export const values = [
     {
         id: 2,
         icon: <GiTiedScroll/>,
-        title: "Learn",
-        desc: "Learn from a curriculum easy to understand and certain to land you a job upon graduation."
+        title: "1 on 1 Mentorship",
+        desc: "Get matched with a personal mentor who works in the industry. Connect with our expert educators in real-time with our live chat service. Ask questions and get detailed feedback and reviews. "
     },
     {
         id: 3,
-        icon: <GiTiedScroll/>,
-        title: "The Curriculum",
-        desc: "Get access to the Grassroot online curriculm designed by experienced Web engineers from Harvard and Beyond."
-    },
-    {
-        id: 4,
         icon: <GiTiedScroll/>,
         title: "Build",
         desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
     },
     {
-        id: 5,
+        id: 4,
         icon: <GiTiedScroll/>,
         title: "Connect With Other Students",
         desc: "You are not alone. Learn and get help from our friendly community of students and experts where weekly zoom meetings are held to discuss coding challenges and progress."
     },
     {
-        id: 6,
+        id: 5,
         icon: <GiTiedScroll/>,
         title: "Verified Certificate",
         desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
@@ -111,12 +105,6 @@ export const programs = [
 
 
 export const faqs = [
-    // {
-    //     id: 1,
-    //     question: "How does Grassroot work?",
-    //     answer1: "The Free path- walk through the full programme via self study- Download guild here.",
-    //     answer2: "Or Career Coach- Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a lower feein exchange for great mentoring. Good mentorship, especially in the early stages of your career, is really important, and it might be worth paying a small fee for a remote mentor in a  1 on 1 Technical Coaching You will Get matched with a personal mentor who works in the industry. Live, personal mentorship from industry experts over a regularly scheduled zoom classes tailored to suit your free time"
-    // },
     {
         id: 1,
         question: "What is a typical outcome after completing Grassroot?",
@@ -131,10 +119,15 @@ export const faqs = [
     {
         id: 3,
         question: "How Long does the program take?",
-        answer1: "The full-time technical curriculum takes 4 to 6 months. However, since the program is self paced, if you invest enough time studying every day, you are certain to graduate earlier ."
+        answer1: "The full-time technical curriculum takes 4 to 5 months. However, since the program a 1 on 1 personal mentor who works in the industry will be assigned to you, the journey is certain to be smooth, fun and interactive."
     },
     {
         id: 4,
+        question: "What are the payment terms and options?",
+        answer1: "Find out about our available payment terms and options here: 'https://grassroot-landing-page.onrender.com/payments'. Eligible candidate can apply for sponsored placements in the program. "
+    },
+    {
+        id: 5,
         question: "Does Grassroot help me find a job?",
         answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },

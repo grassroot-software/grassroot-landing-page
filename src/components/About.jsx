@@ -18,8 +18,8 @@ const About = () => {
                 simply register and start learning.
                 </p>
                 <p>
-                During the full-time technical curriculum, students spend 3 to 5 months learning the most in-demand skills in web development, developing thier technical skills, building projects, 
-                from simple scripts to full web apps and deployed websites and improving the skills they need to excel in the global job market
+                During the full-time technical curriculum, students spend 4 to 5 months learning the most in-demand skills in web development, developing thier technical skills, building projects, 
+                from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market
                 </p>
             </div>
             <div className='about__Vision-image'>

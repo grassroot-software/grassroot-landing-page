@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef  } from "react"
+import { useState, useEffect, useRef,} from "react"
 import Header from "./Header"
 
 import HeaderImage1 from "../images/background.jpg"
@@ -9,20 +9,20 @@ const MainHeader = () =>{
     const backgrounds =[
         {
             image: HeaderImage1,
-            title: "Welcome to Grassroot",
-            subtitle: "YOUR CARRER IN WEB DEVELOPMENT STARTS HERE"
-
+            title: "WELCOME TO GRASSROOT",
+            subtitle: "Your Career In Web Development Starts Here",
+            extra: "Live, personal mentorship from industry experts in tech fields that employers need most"
         },
         {
             image: HeaderImage2,
             title: "Gain The Skills You Need To Get Hired ",
-            subtitle: "By Employers Home And Abroad"
+            subtitle: "By Employers Home And Abroad",
         }
     ]
     const [index, setIndex] = useState(0)
     const timeoutRef = useRef(null);
     const delay = 5000;
-    const {image, title, subtitle } = backgrounds[index];
+    const {image, title, subtitle, extra} = backgrounds[index];
     
 
     function resetTimeout() {
@@ -50,8 +50,8 @@ const MainHeader = () =>{
     return(
 
         <>
-        <Header style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }} title = {title} image={image}> <br></br>
-        {subtitle}.
+        <Header style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }} title = {title} image={image}> 
+        <i>{subtitle}</i> <h4>{extra}</h4> 
         </Header>
         </>
     )
