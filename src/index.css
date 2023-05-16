@@ -59,11 +59,11 @@ h2{
     font-size: 2rem;
 }
 a{
-    color: var(--color-secondary);
+    color: var(--color-gray-100);
     transition: var(--transition);
 }
 a:hover{
-    color: var(--color-gray-500);
+    color: var(--color-secondary);
 }
 
 img{

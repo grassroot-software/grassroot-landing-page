@@ -109,7 +109,7 @@ nav{
         }
     }
 
-    .nav__links li a{
+    .nav__links li {
         background-color: var(--color-primary);
         height: 100%;
         width: 100%;
