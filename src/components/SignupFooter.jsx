@@ -5,10 +5,10 @@ const SignupFooter = () => {
     <div className="footer2" >
         <div className="container SignupFooter__container">
            <article>
-                <a href="./criteria">Eligibility Criteria <MdArrowForwardIos/> </a>
+                <a href="/criteria">Eligibility Criteria <MdArrowForwardIos/> </a>
            </article>
            <article className="payment__container">
-                <a href="./payments">Payment and Policies <MdArrowForwardIos/> </a>
+                <a href="/payments">Payment and Policies <MdArrowForwardIos/> </a>
            </article>
             
             
