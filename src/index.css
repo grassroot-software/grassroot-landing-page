@@ -259,7 +259,7 @@ section{
 }
 
 .header2__content{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     position: relative;
     width: 50%;
     margin: 0 auto;

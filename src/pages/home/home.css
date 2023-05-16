@@ -208,7 +208,7 @@ footer{
     padding-top: 1rem;
     margin-bottom: 1rem;
 }
-.fraud__container{
+.payment__container{
      border-top: 1px solid var(--color-primary-variant);
 }
 .footer__container{
