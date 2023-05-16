@@ -62,6 +62,9 @@ a{
     color: var(--color-gray-100);
     transition: var(--transition);
 }
+.payment_a{
+    color: #419aee;
+}
 a:hover{
     color: var(--color-secondary);
 }

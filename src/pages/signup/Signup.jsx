@@ -33,7 +33,10 @@ const Signup = () => {
                         <li><GiCheckMark/>  Must be 18 years and above</li>
                         <li><GiCheckMark/>  Access to a computer and internet during the programme</li>  
                     </ul>
-    
+                </article>
+                <h2 className='signup_option_h2'>Payment and cancellation</h2>
+                <article className='signup_option'>
+                    <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <a className="payment_a" href="./payments">here.</a></h4>
                 </article>
             </div>
             
