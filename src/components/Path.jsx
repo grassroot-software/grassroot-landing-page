@@ -10,21 +10,15 @@ const Path = () => {
         <div className='container path__container'>
             
             <div className='path__section-content'>
-                <h2> CHOOSE YOUR PATH </h2><br></br>
-                <h3> <FaChalkboardTeacher/>  The Free Path- <i>Self Study</i></h3>
-                <p>
-                Our mission is to provide quality training in software engineering at no upfront cost to 
-                our students. Hence the Grassroot curriculum was designed to be highly digestable and easy 
-                to understand so that students can study the full technical curriculum on their own without a mentor .
-                </p>
-                <h3> <FaChalkboardTeacher/> Paid Path- <i> Careeer Coach </i></h3>
-                <p>
-                Do you value 1 on 1 mentorship over self study? Perhaps you are willing to pay a low fee in exchange 
-                for great mentoring. Good mentorship, especially in the early stages of your career, is really important, 
-                and it might be worth paying a small fee for a remote mentor who walks you through every step in becoming a 
-                seasoned Software Engineer. </p>
-                <p><GiCheckMark/> A personal mentor who works in the industry will be assigned to you. </p>
-                <p><GiCheckMark/> Live personal mentorship from an industry expert over a regularly scheduled zoom class tailored to suit your free time.</p>
+                <h2> 1 on 1 Mentorship </h2><br></br>
+                
+                <p><GiCheckMark/> Live personal mentorship from an industry experts.</p>
+                <p><GiCheckMark/> Detailed feedback and reviews. </p>
+                <p><GiCheckMark/> In-depth career services. </p><br></br>
+
+
+                <h3> <FaChalkboardTeacher/>  On-demand Technical Coaching</h3>
+                <p>Connect with our expert educators in real-time with our live chat service. Ask questions and get feedback fast. </p>
             </div>
             <div className='path__image'>
                 <img src={gif} alt='Gif' />

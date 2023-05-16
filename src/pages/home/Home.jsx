@@ -7,7 +7,7 @@ import Programs from '../../components/Programs'
 import MoreIntro from '../../components/MoreIntro'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-// import Path from '../../components/Path'
+import Path from '../../components/Path'
 import './home.css'
 
 const Home = ()=>{
@@ -18,7 +18,7 @@ const Home = ()=>{
         <About/>
         <MoreIntro/>
         <Values/>
-        {/* <Path /> */}
+        <Path />
         <Programs/>
         < FAQs />
         <Testimonials />

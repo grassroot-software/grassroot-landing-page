@@ -1,14 +1,15 @@
 import {MdArrowForwardIos} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 const SignupFooter = () => {
   return (
     <div className="footer2" >
         <div className="container SignupFooter__container">
            <article>
-                <a href="/criteria">Eligibility Criteria <MdArrowForwardIos/> </a>
+                <Link to= "/criteria">Eligibility Criteria <MdArrowForwardIos/> </Link>
            </article>
            <article className="payment__container">
-                <a href="/payments">Payment and Policies <MdArrowForwardIos/> </a>
+                <Link to= "/payments">Payment and Policies <MdArrowForwardIos/> </Link>
            </article>
             
             

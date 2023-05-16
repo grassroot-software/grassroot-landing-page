@@ -32,26 +32,20 @@ export const values = [
         title: "Register",
         desc: "Register on the Grassroot platform to get started."
     },
+    // {
+    //     id: 2,
+    //     icon: <GiTiedScroll/>,
+    //     title: "1 on 1 Mentorship",
+    //     desc: "Get matched with a personal mentor who works in the industry. Connect with our expert educators in real-time with our live chat service. Ask questions and get detailed feedback and reviews. "
+    // },
     {
         id: 2,
-        icon: <GiTiedScroll/>,
-        title: "1 on 1 Mentorship",
-        desc: "Get matched with a personal mentor who works in the industry. Connect with our expert educators in real-time with our live chat service. Ask questions and get detailed feedback and reviews. "
-    },
-    {
-        id: 3,
         icon: <GiTiedScroll/>,
         title: "Build",
         desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
     },
     {
-        id: 4,
-        icon: <GiTiedScroll/>,
-        title: "Connect With Other Students",
-        desc: "You are not alone. Learn and get help from our friendly community of students and experts where weekly zoom meetings are held to discuss coding challenges and progress."
-    },
-    {
-        id: 5,
+        id: 3,
         icon: <GiTiedScroll/>,
         title: "Verified Certificate",
         desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
