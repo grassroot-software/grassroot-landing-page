@@ -7,9 +7,9 @@ const SignupFooter = () => {
            <article>
                 <a href="./criteria">Eligibility Criteria <MdArrowForwardIos/> </a>
            </article>
-           <article className="fraud__container">
+           {/* <article className="fraud__container">
                 <a href="./fraud_disclaimer">Fraud Disclaimer <MdArrowForwardIos/> </a>
-           </article>
+           </article> */}
             
             
         </div>
