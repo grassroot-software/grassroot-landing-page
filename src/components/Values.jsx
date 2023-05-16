@@ -10,16 +10,18 @@ const Values = () => {
     <section className='values'>
         <div className='container values__container'>
             <div className='values__left'>
-                <p>
-                <SectionHead  title="HOW IT WORKS " />
-                </p>
                 <div className='values__image'>
                     <img src={Image} alt='Values Images'/>
                 </div>
                 
+                
+                
             </div>
             
             <div className='values__right'>
+                <p>
+                <SectionHead  title="HOW IT WORKS " />
+                </p>
                 <div className='values__wrapper'>
                     {
                         values.map(({id, icon, title, desc}) => {

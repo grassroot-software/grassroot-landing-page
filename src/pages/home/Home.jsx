@@ -1,5 +1,5 @@
 import MainHeader from '../../components/MainHeader'
-import Values from '../../components/Values'
+// import Values from '../../components/Values'
 import FAQs from '../../components/FAQs'
 import Testimonials from '../../components/Testimonials'
 import About from '../../components/About'
@@ -17,7 +17,7 @@ const Home = ()=>{
         <MainHeader />
         <About/>
         <MoreIntro/>
-        <Values/>
+        {/* <Values/> */}
         <Path />
         <Programs/>
         < FAQs />

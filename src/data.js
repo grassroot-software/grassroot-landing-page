@@ -35,21 +35,15 @@ export const values = [
     // {
     //     id: 2,
     //     icon: <GiTiedScroll/>,
-    //     title: "1 on 1 Mentorship",
-    //     desc: "Get matched with a personal mentor who works in the industry. Connect with our expert educators in real-time with our live chat service. Ask questions and get detailed feedback and reviews. "
+    //     title: "Build",
+    //     desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
     // },
-    {
-        id: 2,
-        icon: <GiTiedScroll/>,
-        title: "Build",
-        desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
-    },
-    {
-        id: 3,
-        icon: <GiTiedScroll/>,
-        title: "Verified Certificate",
-        desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
-    },
+    // {
+    //     id: 3,
+    //     icon: <GiTiedScroll/>,
+    //     title: "Verified Certificate",
+    //     desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
+    // },
    
 ]
 
