@@ -4,6 +4,7 @@ import {GiTiedScroll} from 'react-icons/gi'
 import {DiRuby} from 'react-icons/di'
 import {DiJavascript} from 'react-icons/di'
 import {DiNodejs} from 'react-icons/di'
+import { Link } from 'react-router-dom'
 
 
 export const links = [
@@ -88,7 +89,7 @@ export const faqs = [
     {
         id: 2,
         question: "What are the payment terms and options?",
-        answer1: ["Find out about our available payment terms and options", <a href = '/payments'> here. </a>,  "Eligible candidate can apply for sponsored placements in the program. "]
+        answer1: ["Find out about our available payment terms and options", <Link to = '/payments'> here. </Link>,  "Eligible candidate can apply for sponsored placements in the program. "]
     },
     {
         id: 3,
