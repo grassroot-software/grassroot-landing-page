@@ -147,9 +147,10 @@ section{
 .card{
     background: var(--color-gray-500);
     border: 2px solid transparent;
+    border-radius: 0 3rem 0 3rem;
     text-align: center;
     padding: 3rem 2rem;
-    border-radius: 0 3rem 0 3rem;
+    
     transition: var(--transition);
 }
 .card:hover{
@@ -205,10 +206,22 @@ section{
     opacity: 0.5;
 }
 .header__content h4{
-    color: var(--color-gray-100);
+    color: var(--color-gray-200);
     margin-top: 5rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    border: 2px solid #aa7f3e;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 0 2.5rem 0 2.5rem;
+    transition: var(--transition);
+
+    /* text-transform: uppercase; */
+}
+
+.header__content h4:hover{
+    border-color: var(--color-primary);
+    cursor: default;
+    background: transparent;
 }
 .header__content p{
     color: var(--color-gray-100);

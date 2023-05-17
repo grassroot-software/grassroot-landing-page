@@ -16,12 +16,12 @@ const MainHeader = () =>{
         {
             image: HeaderImage2,
             title: "Gain The Skills You Need To Get Hired ",
-            subtitle: "By Employers Home And Abroad",
+            extra: "By Employers Home And Abroad",
         }
     ]
     const [index, setIndex] = useState(0)
     const timeoutRef = useRef(null);
-    const delay = 5000;
+    const delay = 10000;
     const {image, title, subtitle, extra} = backgrounds[index];
     
 

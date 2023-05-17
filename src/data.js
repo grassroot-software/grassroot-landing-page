@@ -88,13 +88,13 @@ export const faqs = [
     },
     {
         id: 2,
-        question: "What are the payment terms and options?",
-        answer1: ["Find out about our available payment terms and options", <Link to = '/payments'> here. </Link>,  "Eligible candidate can apply for sponsored placements in the program. "]
+        question: "Does Grassroot help me find a job?",
+        answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },
     {
         id: 3,
-        question: "Does Grassroot help me find a job?",
-        answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
+        question: "What are the payment terms and options?",
+        answer1: ["Find out about our available payment terms and options", <Link to = '/payments'> here. </Link>,  "Eligible candidate can apply for sponsored placements in the program. "]
     },
 ]
 
