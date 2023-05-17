@@ -2,17 +2,24 @@ import gif from '../images/gif.webp'
 import {GiCheckMark} from 'react-icons/gi'
 import {FaChalkboardTeacher} from 'react-icons/fa'
 import img from '../images/01 (2).jpg'
-import { Link } from 'react-router-dom'
 
 
 const Path = () => {
   return (
     <>
+      {/* <section  className='path'>
+        <p>
+            We believe quality education should be free and accessible to all.
+            Our mission is to achieve the goal in training 1 million young Africans 
+            with skills they need to get hired in web development jobs 
+            and connect them to our network of remote employers home and abroad.
+        </p>
+    </section> */}
     <section className='path'>  
         
         <div className='container path__container'>
            <div className='path__image'>
-                <img className='register__img' src={img} alt='Gif' />
+                <img className='about__Vision-image' src={img} alt='Gif' />
             </div>
             <div className='path__section-content'>
                 <h1>HOW IT WORKS</h1>

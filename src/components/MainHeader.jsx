@@ -2,7 +2,7 @@ import { useState, useEffect, useRef,} from "react"
 import Header from "./Header"
 
 import HeaderImage1 from "../images/background.jpg"
-import HeaderImage2 from "../images/background2.jpg"
+import HeaderImage2 from "../images/background4.jpg"
 
 const MainHeader = () =>{
         

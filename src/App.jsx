@@ -4,7 +4,7 @@ import Payments from './pages/payments/Payments'
 import Community from './pages/community/Community'
 import Signup from './pages/signup/Signup'
 import Criteria from './pages/criteria/Criteria'
-
+import About from './pages/about/About'
 
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
        
         <Routes>
           <Route index element = {<Home/>}/>
+          <Route path ='about_grassroot' element = {<About/>}/>
           <Route path ='discord' element = {<Community/>}/>
           <Route path ='payments' element = {<Payments/>}/>
           <Route path ='signup' element = {<Signup/>}/>

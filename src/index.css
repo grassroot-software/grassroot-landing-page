@@ -123,9 +123,10 @@ section{
     color: var(--color-secondary);
     font-size: 1.5rem;
 }
-.section__head2 span{
+.section__head2 span, .payment_h3 {
     color: #aa7f3e;
 }
+
 .card2{
     background: transparent;
     border: 2px solid;

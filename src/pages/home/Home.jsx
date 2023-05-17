@@ -15,7 +15,7 @@ const Home = ()=>{
         <Navbar />
         <MainHeader />
         <About/>
-        <MoreIntro/>
+        {/* <MoreIntro/> */}
         <Path />
         <Programs/>
         < FAQs />
