@@ -212,7 +212,7 @@ section{
     border: 2px solid #aa7f3e;
     text-align: center;
     padding: 2rem 1rem;
-    border-radius: 0 2.5rem 0 2.5rem;
+    border-radius: 0 3rem 0 3rem;
     transition: var(--transition);
 
     /* text-transform: uppercase; */
