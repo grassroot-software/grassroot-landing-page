@@ -19,14 +19,14 @@ const Footer = () => {
             <article>
                 <h4> Hyperlinks</h4>
                 <a href='/' > Grassroot</a>
-                <a href='https://learn.grassroot.academy/about'> About Us</a>
+                <a href='/about_grassroot'> About Us</a>
                 
                 
                 
             </article>
             <article>
                 <h4> Get Started</h4>
-                <a href='https://learn.grassroot.academy/sign_up'>Register </a>
+                <a href='/signup'>Register </a>
                 <a href='https://learn.grassroot.academy/sign_in'>Login </a>
             </article>
             <article>

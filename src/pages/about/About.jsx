@@ -39,7 +39,7 @@ const About = () => {
                 regularly scheduled zoom class tailored to suit your free  time. 
                 At Grassroot we charge a small fee for this added service.
                 </p>
-                <h1> Mastery Based Learning</h1>
+                <h2> Mastery Based Learning</h2>
                 <p>
                 At Grassroot we employ a teaching approach that requires students to
                 demonstrate a thorough understanding of a module or subject before moving 

@@ -31,13 +31,14 @@
 .about__Vision-image{
     border-radius: 10%;
     overflow: hidden;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     border-color: var(--color-primary);
 }
 .about__section-content h1{
     margin-bottom: 2rem;
 }
 .about__section-content h2{
+    margin-top: 2rem;
     margin-bottom: 2rem;
     color: #aa7f3e;
 }
