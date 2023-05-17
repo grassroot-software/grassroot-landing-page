@@ -93,8 +93,8 @@ export const faqs = [
     },
     {
         id: 3,
-        question: "What are the payment terms and options?",
-        answer1: ["Find out about our available payment terms and options", <Link to = '/payments'> here. </Link>,  "Eligible candidate can apply for sponsored placements in the program. "]
+        question: "What are the payment options and how do I start?",
+        answer1: ["Find out about available payment options", <Link to = '/payments'> here. </Link>,  "Eligible candidates may not pay full tuition until they graduate and start working. "]
     },
 ]
 
