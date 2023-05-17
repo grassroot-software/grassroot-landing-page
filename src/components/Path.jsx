@@ -19,7 +19,7 @@ const Path = () => {
                 <h2> Register </h2><br></br>
                 
                 <p><GiCheckMark/> Register on the Grassroot platform to get started.</p>
-                <p>< Link to ='/signup' className="payment_a">Registration link</Link></p>
+               
             </div>
             
         </div>
