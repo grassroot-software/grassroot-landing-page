@@ -1,6 +1,10 @@
 import {FaDatabase} from 'react-icons/fa'
+import {AiOutlineHtml5} from 'react-icons/ai'
 import {GiTiedScroll} from 'react-icons/gi'
 import {DiRuby} from 'react-icons/di'
+import {DiJavascript} from 'react-icons/di'
+import {DiNodejs} from 'react-icons/di'
+
 
 export const links = [
     {
@@ -20,31 +24,13 @@ export const links = [
         path: 'https://learn.grassroot.academy/sign_in'
     },
     {
+        name: "Make Payments",
+        path: '/payments'
+    },
+    {
         name: "Join students on Discord",
         path: '/discord'
     },
-]
-
-export const values = [
-    {
-        id: 1,
-        icon: <GiTiedScroll/>,
-        title: "Register",
-        desc: "Register on the Grassroot platform to get started."
-    },
-    // {
-    //     id: 2,
-    //     icon: <GiTiedScroll/>,
-    //     title: "Build",
-    //     desc: "Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market."
-    // },
-    // {
-    //     id: 3,
-    //     icon: <GiTiedScroll/>,
-    //     title: "Verified Certificate",
-    //     desc: "By Studying At Grassroot And Completing The Full-Time Program, You Get A Verified Certificate."
-    // },
-   
 ]
 
 export const programs = [
@@ -60,27 +46,27 @@ export const programs = [
     },
     {
         id: 3,
-        icon: <GiTiedScroll/>,
+        icon: <DiRuby/>,
         title: "RUBY ON RAILS",
     },
     {
         id: 4,
-        icon: <GiTiedScroll/>,
+        icon: <DiJavascript/>,
         title: "JAVASCRIPT",
     },
     {
         id: 5,
-        icon: <GiTiedScroll/>,
+        icon: <AiOutlineHtml5/>,
         title: "INTERMEDIATE HTML AND CSS",
     },
     {
         id: 6,
-        icon: <GiTiedScroll/>,
+        icon: <AiOutlineHtml5/>,
         title: "ADVANCED HTML AND CSS",
     },
     {
         id: 7,
-        icon: <GiTiedScroll/>,
+        icon: <DiNodejs/>,
         title: "NODEJS",
     },
     {
@@ -101,21 +87,11 @@ export const faqs = [
     },
     {
         id: 2,
-        question: "Will I get a certificate once I complete Grassroot?",
-        answer1: " Yes, we do provide a certificate upon your completion of Grassroot. However, The best employers out there don't care whether or not you have an 'official' degree. What matters to them is that you know how to get the job done. By studying at Grassroot and completing the full-time program, you will have the technical skills, soft skills, tenacity, and determination that many accredited programs at universities can't provide. Additionally, you'll have a large portfolio of documented projects you built during the training to help showcase your skills. A verified certificate shows that you have successfully passed a Grassroot course in the verified track. A verified certificate from Grassroot can provide proof for an employer, school, or other institution that you have successfully completed an online course. When you pass your course, you'll receive your professional certificate. You can share your certificate with friends, employers and others through an easy-to-share link we provide, or in certain cases stack it towards a larger credent "
-    },  
+        question: "What are the payment terms and options?",
+        answer1: ["Find out about our available payment terms and options", <a href = '/payments'> here. </a>,  "Eligible candidate can apply for sponsored placements in the program. "]
+    },
     {
         id: 3,
-        question: "How Long does the program take?",
-        answer1: "The full-time technical curriculum takes 4 to 5 months. However, since the program a 1 on 1 personal mentor who works in the industry will be assigned to you, the journey is certain to be smooth, fun and interactive."
-    },
-    {
-        id: 4,
-        question: "What are the payment terms and options?",
-        answer1: "Find out about our available payment terms and options here: 'https://grassroot-landing-page.onrender.com/payments'. Eligible candidate can apply for sponsored placements in the program. "
-    },
-    {
-        id: 5,
         question: "Does Grassroot help me find a job?",
         answer1: "Yes, we will do everything we can to help you find a job. However, we can't apply to, interview, or land jobs for you. You will need to do that work yourself. Our help finding you a job starts from day 1. While you start on the technical curriculum to teach you how to code, you will also start learning the professional skills you need to succeed during your job search. By the end of your first month, you will start learning how to network your way to success. Once you finish the main technical curriculum, we will assign you a dedicated career coach who will be there every step of the way: from prepping your resume, portfolio, and online presence to interviewing practice to helping you with salary negotiation.  "
     },

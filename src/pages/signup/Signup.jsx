@@ -6,6 +6,7 @@ import {GiCheckMark} from 'react-icons/gi'
 
 import '../home/home.css'
 import './signup.css'
+import { Link } from "react-router-dom"
 
 const Signup = () => {
   return (
@@ -36,7 +37,7 @@ const Signup = () => {
                 </article>
                 <h2 className='signup_option_h2'>Payment and cancellation</h2>
                 <article className='signup_option'>
-                    <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <a className="payment_a" href="./payments">here.</a></h4>
+                    <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <Link to ="./payments" className="payment_a">here.</Link></h4>
                 </article>
             </div>
             

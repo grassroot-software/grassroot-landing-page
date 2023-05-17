@@ -9,8 +9,6 @@
 }
 
 :root{
-    /* --primary-hue: 20;
-    --gray-hue: 280; */
     
     --primary-hue: 180;
     --gray-hue: 150;
@@ -120,7 +118,6 @@ section{
     gap: 1rem;
 }
 .section__head span, .section__head2 span{
-    /* background: (var(--color-gray-500)); */
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
@@ -144,7 +141,7 @@ section{
 }
 
 .card2:hover h4{
-    color: var(--color-primary);
+    color: var(--color-gray-500);
 }
 
 .card{
@@ -164,7 +161,7 @@ section{
 .card span, .card2 span{
     width: 3rem;
     height: 3rem;
-    background: var(--color-primary);
+    background: var(--color-gray-500);
     color: var(--color-gray-100);
     font-size: 1.5rem;
     padding: 0.8rem;

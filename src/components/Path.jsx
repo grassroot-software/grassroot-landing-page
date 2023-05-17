@@ -2,6 +2,7 @@ import gif from '../images/gif.webp'
 import {GiCheckMark} from 'react-icons/gi'
 import {FaChalkboardTeacher} from 'react-icons/fa'
 import img from '../images/01 (2).jpg'
+import { Link } from 'react-router-dom'
 
 
 const Path = () => {
@@ -18,6 +19,7 @@ const Path = () => {
                 <h2> Register </h2><br></br>
                 
                 <p><GiCheckMark/> Register on the Grassroot platform to get started.</p>
+                <p>< Link to ='/signup' className="payment_a">Registration link</Link></p>
             </div>
             
         </div>
@@ -50,9 +52,6 @@ const Path = () => {
                 <h2> Build </h2><br></br>
                 <p> <GiCheckMark/> Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market.</p>
             </div>
-            {/* <div className='path__image'>
-                <img src={gif} alt='Gif' />
-            </div> */}
         </div>
     </section>
 
@@ -73,16 +72,3 @@ const Path = () => {
 }
 
 export default Path
-
-// TiTickOutline
-// BsFillBookmarkCheckFill
-// BsBookmarkCheck
-// GiCheckMark
-// RxBookmarkFilled
-// SiMediamarkt
-// SiMediamarkt
-// FaGraduationCap
-// FaUserGraduate
-// GiGraduateCap
-// FaChalkboardTeacher
-// MdComputer

@@ -24,7 +24,7 @@ nav{
 }
 .nav__links{
     display: flex;
-    gap: 3.5rem;
+    gap: 3rem;
     align-items: center  ;
 }
 .nav__links a{
