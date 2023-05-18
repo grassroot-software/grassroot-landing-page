@@ -39,9 +39,9 @@ const Signup = () => {
                 <article className='signup_option'>
                     <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <Link to ="./payments" className="payment_a">here.</Link></h4>
                 </article>
-            </div>
-            
-            <form action="#">
+            </div>    
+                   
+             <form action="/discord" >{/* add post action & on sucessful posting, redirect to join community page (write a function) */}
                 <label className='form-label'>First Name</label><input type='text' name='firstName' required />
                 <label className='form-label'>Last Name</label><input type='text' name='lastName' required />
                 <label className='form-label'>Email Address</label><input type='email' name='email' required />
@@ -57,7 +57,7 @@ const Signup = () => {
                 
 
                 <label className='form-label' for ="gender" >Gender</label>
-                    <select  name="age" id="gender" required>
+                    <select  name="gender" id="gender" required>
                         <option value=" " disabled selected hidden>Please Select</option>
                         <option value=" Female">Female</option>
                         <option value=" Male">Male</option>
@@ -322,20 +322,32 @@ const Signup = () => {
                         <option value="ZW">Zimbabwe</option>
                     </select>
 
+
+                <label className='form-label' for ="courses" >Preferred course </label>
+                    <select  name="courses" id="courses" required>
+                        <option value=" " disabled selected hidden>Please select program of your choice</option>
+                        <option value=" Software Engineering">Software Engineering</option>
+                        <option value=" Full stack Ruby on Rails">Full stack Ruby on Rails</option>
+                        <option value=" None or Binary">Full stack Javascript</option>
+                        <option value=" Prefer Not To Say">Intermediate and Advanced HTML and CSS</option>
+                    </select>
                 
-                <label className='form-label' for ="access to laptop" >Do you have access to a desktop or laptop and reliable high speed internet?</label>
-                    <select  name="accesstolaptop" id="accesstolaptop" required>
+                <label className='form-label' for ="payment agreement" >A personal mentor who works in the industry will be assigned to you. 
+                    Live, personal mentorship from an industry expert over a regularly scheduled zooom class tailored to suit your free time. 
+                    At Grassroot we charge a small fee for this added service. Do you agree to make this payment?
+                </label>
+                    <select  name="payment agreement" id="payment agreement" required>
                         <option value=" " disabled selected hidden>Please Select</option>
                         <option value=" Yes">Yes</option>
                         <option value=" No">No</option>
                     </select>
-                <div className="checkbox"><input  type="checkbox" id="checkbox" name=""></input>
+                <div ><input  type="checkbox" id="checkbox" name="" required></input>
                     <label for= "agreement"> I declare that the information I have provided is accurate and complete <br></br> <i><small>Providing false information will be in violation of our community guidelines.</small>*</i>  </label>
                 </div>
-                <div className="checkbox"><input type="checkbox" id="checkbox" name=""></input>
-                    <label for= "agreement"> I hereby acknowledge that I have clearly read and understood the <a href="www.htttp" >Fraud Disclaimer </a></label>
+                <div ><input type="checkbox" id="checkbox" name="" required></input>
+                    <label for= "agreement"> I hereby acknowledge that I have clearly read and understood the </label>
                 </div>
-                <div className="checkbox"><input type="checkbox" id="checkbox" name=""></input>
+                <div ><input type="checkbox" id="checkbox" name="" required></input>
                     <label for= "agreement"> I agree to my email, phone number and address being stored and used to receive automated communications about my application.  </label>
                 </div>
                 <button type='submit' className='btnSubmit'>Submit</button>

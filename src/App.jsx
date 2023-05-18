@@ -5,6 +5,7 @@ import Community from './pages/community/Community'
 import Signup from './pages/signup/Signup'
 import Criteria from './pages/criteria/Criteria'
 import About from './pages/about/About'
+import Programs from './pages/programs/Programs'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path ='discord' element = {<Community/>}/>
           <Route path ='payments' element = {<Payments/>}/>
           <Route path ='signup' element = {<Signup/>}/>
+          <Route path ='programs' element = {<Programs/>}/>
           <Route path ='criteria' element = {<Criteria/>}/>
         </Routes>
        

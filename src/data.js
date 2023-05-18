@@ -25,13 +25,17 @@ export const links = [
         path: 'https://learn.grassroot.academy/sign_in'
     },
     {
-        name: "Make Payments",
-        path: '/payments'
+        name: "Programs",
+        path: '/programs'
     },
-    {
-        name: "Join students on Discord",
-        path: '/discord'
-    },
+    // {
+    //     name: "Make Payments",
+    //     path: '/payments'
+    // },
+    // {
+    //     name: "Join students on Discord",
+    //     path: '/discord'
+    // },
 ]
 
 export const programs = [

@@ -19,7 +19,7 @@ const Path = () => {
         
         <div className='container path__container'>
            <div className='path__image'>
-                <img className='about__Vision-image' src={img} alt='Gif' />
+                <img className='register__img' src={img} alt='Register' />
             </div>
             <div className='path__section-content'>
                 <h1>HOW IT WORKS</h1>
