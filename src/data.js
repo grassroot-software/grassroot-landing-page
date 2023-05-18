@@ -25,7 +25,7 @@ export const links = [
         path: 'https://learn.grassroot.academy/sign_in'
     },
     {
-        name: "Programs",
+        name: "How we work",
         path: '/programs'
     },
     // {

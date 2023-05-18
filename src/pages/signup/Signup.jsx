@@ -332,9 +332,7 @@ const Signup = () => {
                         <option value=" Prefer Not To Say">Intermediate and Advanced HTML and CSS</option>
                     </select>
                 
-                <label className='form-label' for ="payment agreement" >A personal mentor who works in the industry will be assigned to you. 
-                    Live, personal mentorship from an industry expert over a regularly scheduled zooom class tailored to suit your free time. 
-                    At Grassroot we charge a small fee for this added service. Do you agree to make this payment?
+                <label className='form-label' for ="payment agreement" >1 on 1 mentorship - A career coach will be assigned to you.
                 </label>
                     <select  name="payment agreement" id="payment agreement" required>
                         <option value=" " disabled selected hidden>Please Select</option>
