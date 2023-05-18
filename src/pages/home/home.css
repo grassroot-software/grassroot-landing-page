@@ -10,6 +10,8 @@ td{
 b{
     color: #424dee; 
 }
+
+
 .table__content{
     background-color: var(--color-gray-500);
     padding: 3rem;
@@ -19,10 +21,6 @@ b{
     font-weight: 100;
 }
 
-.register__img{
-    width: 320px;
-    height: 350px;
-}
 
 .programs__path__container{
     display: block;
@@ -64,7 +62,6 @@ b{
 .about__Vision-image{
     border-radius: 10%;
     overflow: hidden;
-    /* border: 1px solid transparent; */
     border-color: var(--color-primary);
 }
 .about__section-content h1{
@@ -80,7 +77,6 @@ b{
     font-size: 1.4rem;
 }
 .about__section-content h4{
-    /* margin-bottom: 1rem; */
     margin-top: 2rem;
     color: #aa7f3e;
     font-size: 1.5rem;
@@ -110,30 +106,6 @@ b{
     margin-top: 4rem;
 }
 
-/* Values */
-
-/* .values__container{
-    display: grid;
-    grid-template-columns: 38% 50%;
-    gap: 8%;
-}
-
-.values__image{
-    border: 1.5px solid var(--color-primary);
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 5rem;
-}
-
-.values__right > p{
-    margin: 1.5rem 0 5rem;
-} */
-/* .values__wrapper{
-    display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* grid-template-columns: 1fr 1fr; */
-    /* gap: 3.4rem 2.4rem;
-}  */
 .card.values__value{
     padding-top: 3.5rem;
     text-align: left;

@@ -1,5 +1,3 @@
-
-
 const SmallerHeader = ({title, image, children}) => {
     return (
       <div className="header2">

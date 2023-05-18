@@ -28,14 +28,6 @@ export const links = [
         name: "How we work",
         path: '/programs'
     },
-    // {
-    //     name: "Make Payments",
-    //     path: '/payments'
-    // },
-    // {
-    //     name: "Join students on Discord",
-    //     path: '/discord'
-    // },
 ]
 
 export const programs = [

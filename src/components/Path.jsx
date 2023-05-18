@@ -7,14 +7,6 @@ import img from '../images/01 (2).jpg'
 const Path = () => {
   return (
     <>
-      {/* <section  className='path'>
-        <p>
-            We believe quality education should be free and accessible to all.
-            Our mission is to achieve the goal in training 1 million young Africans 
-            with skills they need to get hired in web development jobs 
-            and connect them to our network of remote employers home and abroad.
-        </p>
-    </section> */}
     <section className='path'>  
         
         <div className='container path__container'>
@@ -66,15 +58,6 @@ const Path = () => {
             </div>
         </div>
     </section>
-
-
-
-    {/* <section className='path'>
-        <div className='container path__container'>
-            
-            
-        </div>
-    </section> */}
     </>
   )
 }

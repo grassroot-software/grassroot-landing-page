@@ -19,6 +19,9 @@ const MainHeader = () =>{
             extra: "By Employers Home And Abroad",
         }
     ]
+
+    // Code to automate transition
+    
     const [index, setIndex] = useState(0)
     const timeoutRef = useRef(null);
     const delay = 10000;

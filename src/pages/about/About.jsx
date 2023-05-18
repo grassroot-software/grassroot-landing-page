@@ -139,15 +139,6 @@ const About = () => {
                     <li><BsDot/> Web developer </li>
                     <li><BsDot/> Computer Systems Administrator </li>
                 </ul>
-                
-                {/* <p>
-                Full-stack development is the complete process of developing an app or 
-                software from an initial idea. It involves front-end and back-end development, 
-                project management, development, and operations. In joining the full-stack 
-                web development program at Grassroot, you will learn JavaScript, React, 
-                data structures and algorithms, databases, 
-                object-oriented programming, API development, and much more. 
-                </p> */}
             </div>
             <div className='about__section-content'>
                 <h3> What is a Full-Stack Developer Salary I Could Make After Completing the Program?</h3>

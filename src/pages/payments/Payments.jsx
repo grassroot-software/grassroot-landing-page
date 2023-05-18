@@ -40,8 +40,15 @@ const Payments = () => {
 
 
                 <h2>Cancellation</h2><br></br>
-                <p>
-Notice of cancellation or rescheduling more than five (5) full business days prior to programme start date is eligible for a full refund or reschedule without penalty. Notice of cancellation/rescheduling on or after the fifth (5th) full business day prior to programme start date is not eligible for refund and is subject to approval and a reschedule penalty may apply. To request a reschedule within the qualifying period, a future date must be identified immediately. In the event, the request is accepted the rescheduled date is limited to one time and for only the same course. The new course must begin up to a maximum of twelve months from the original course date. For no-shows, payment is non-refundable. “No Shows” is defined as the student does not show up on the date the course starts, and there was no prior communication from the student to cancel or reschedule the course.
+                <p>Notice of cancellation or rescheduling more than five (5) full business days prior to 
+                  programme start date is eligible for a full refund or reschedule without penalty. 
+                  Notice of cancellation/rescheduling on or after the fifth (5th) full business day prior to 
+                  programme start date is not eligible for refund and is subject to approval and a reschedule penalty may apply. 
+                  To request a reschedule within the qualifying period, a future date must be identified immediately. 
+                  In the event, the request is accepted the rescheduled date is limited to one time and for only the same course. 
+                  The new course must begin up to a maximum of twelve months from the original course date. 
+                  For no-shows, payment is non-refundable. “No Shows” is defined as the student does not show up on the date the 
+                  course starts, and there was no prior communication from the student to cancel or reschedule the course.
 
                 </p>
             </div>

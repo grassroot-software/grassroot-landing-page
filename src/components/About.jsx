@@ -13,18 +13,12 @@ const About = () => {
                   Our mission is to achieve the goal in training 1 million young Africans 
                   with skills they need to get hired in web development jobs and 
                   connect them to our network of remote employers home and abroad.
-
-                {/* Grassroot is an online school for international web developers where you pay NO enrollment fees
-                We connect successful graduates to our network of employers home and abroad for remote job placements */}
                 </p>
-                {/* <p>
-                There are no enrollment fees to attend Grassroot. We believe quality education should be 
-                free and accessible to all people no matter where you live. To join Grassroot, 
-                simply register and start learning.
-                </p> */}
                 <p>
-                During the full-time technical curriculum, students spend 4 to 5 months learning the most in-demand skills in web development, developing thier technical skills, building projects, 
-                from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market
+                During the full-time technical curriculum, students spend 4 to 5 months learning the most in-demand 
+                skills in web development, developing thier technical skills, building projects, 
+                from simple scripts to full web apps and deployed systems, improving the skills they need to excel 
+                in the global job market
                 </p><br></br>
                 <h4> <FaCrown/> Our full stack curriculum is free and supported by a passionate community
                  of web engineers from Harvard University and Beyond..." 
