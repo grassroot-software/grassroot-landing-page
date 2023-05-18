@@ -59,14 +59,6 @@ const Path = () => {
                 <h2> Build </h2><br></br>
                 <p> <GiCheckMark/> Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed systems, preparing you with skills high in demand in the global job market.</p>
             </div>
-        </div>
-    </section>
-
-
-
-    <section className='path'>
-        <div className='container path__container'>
-            
             <div className='path__section-content'>
                 <h2> Verified Certificate </h2><br></br>
                 
@@ -74,6 +66,15 @@ const Path = () => {
             </div>
         </div>
     </section>
+
+
+
+    {/* <section className='path'>
+        <div className='container path__container'>
+            
+            
+        </div>
+    </section> */}
     </>
   )
 }
