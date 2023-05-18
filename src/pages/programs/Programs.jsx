@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom"
 import SmallerHeader from "../../components/SmallerHeader"
 import HeaderImage from "../../images/background3.jpg"
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import SectionHead from "../../components/SectionHead"
 import Card from "../../UI/Card2"
 
 import {AiFillCaretRight} from 'react-icons/ai'
+import {GiQueenCrown} from 'react-icons/gi'
 import {GiCheckMark} from 'react-icons/gi'
 import {FaChalkboardTeacher} from 'react-icons/fa'
 import {MdKeyboardArrowDown} from 'react-icons/md'
@@ -17,7 +20,8 @@ import imgSoft from '../../images/picture3.webp'
 import img5 from '../../images/laptop.jpg'
 import img6 from '../../images/ladyImage.jpg'
 import img7 from '../../images/js.jpg'
-import { Link } from "react-router-dom"
+
+
 
 const Programs = () => {
   return (
@@ -61,7 +65,6 @@ const Programs = () => {
         </div>
     </section>
 
-
     <section className='path'>
         <div className='container path__container'>  
             <div className='path__image'>
@@ -80,9 +83,9 @@ const Programs = () => {
     </section>
 
 
-    <section>
-        <div>
-            <h1>Our programs</h1>
+    <section className="testimonials">
+        <div className="container testimonials__container"> 
+         <SectionHead icon={<GiQueenCrown/>} title="Our Programs " />
         </div>
     </section>
 
@@ -135,6 +138,7 @@ const Programs = () => {
         </div>
        
     </section>
+
     <section className='path'>
         <div className='container programs__block__container'> 
              <div className='container programs__path__container'>  
@@ -220,8 +224,6 @@ const Programs = () => {
             </Card>
         </div>
     </section>
-
-
 
     <Footer />
     </>
