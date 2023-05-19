@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom"
 import SmallerHeader from "../../components/SmallerHeader"
 import HeaderImage from "../../images/background2.jpg"
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import Image from '../../images/payment.jpg'
+import Image from '../../images/payment2.jpg'
 
 import '../home/home.css'
-
+import {AiFillCaretRight} from 'react-icons/ai'
 
 const Payments = () => {
   return (
@@ -27,16 +28,18 @@ const Payments = () => {
                 <p>Grassroot offers eligible African candidates access to world-class programme training at no cost. 
                   Each African candidate has the opportunity to apply for the full technical training at no upfront cost. 
                    They only pay tuition  after they graduate and start working.
-                </p> <br></br>
+                </p> 
+                <Link to ="/signup" className= 'btn sm' > Get Started <AiFillCaretRight/> </Link>
+               
                 <h3 className="payment_h3">FOR NON-AFRICANS</h3><br></br>
-                <p>The fees for the programme must be paid in full as detailed in the table. 
-                  Enrolment is not complete until Grassroot has received full payment of the fees.
+                <p>The fees for the programme must be paid in full or via Monthly instalments of a fixed amount.
                   Accepted applicants will receive an automatically generated invoice which includes
                   a payment link from a robust global payment gateway. Accepted payment methods are VISA, 
                   Mastercard, or an International Wire Transfer. The Grassroot team will 
                   send an email to the applicant acknowledging receipt of funds,
-                   followed by an email confirmation of enrolment from Grassroot team.
-                </p> <br></br>
+                  followed by an email confirmation of enrolment from Grassroot team.
+                </p> 
+                <Link to ="/signup" className= 'btn sm' > Get Started <AiFillCaretRight/> </Link>
 
 
                 <h2>Cancellation</h2><br></br>
