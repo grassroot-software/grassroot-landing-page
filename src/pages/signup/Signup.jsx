@@ -359,9 +359,7 @@ const Signup = () => {
                     <label for= "agreement"> I agree to my email, phone number and address being stored and used to receive automated communications about my application.  </label>
                 </div>
                 <button type='submit' className='btnSubmit'>Submit</button>
-            </form>
-
-           
+            </form>      
         </div>
     
     </section>

@@ -7,12 +7,14 @@ import Criteria from './pages/criteria/Criteria'
 import About from './pages/about/About'
 import Programs from './pages/programs/Programs'
 
+import ScrollToTop from './ScrollWrapper'
+
 
 const App = () => {
   return (
     
     <BrowserRouter>
-       
+       <ScrollToTop>
         <Routes>
           <Route index element = {<Home/>}/>
           <Route path ='about_grassroot' element = {<About/>}/>
@@ -22,7 +24,7 @@ const App = () => {
           <Route path ='programs' element = {<Programs/>}/>
           <Route path ='criteria' element = {<Criteria/>}/>
         </Routes>
-       
+      </ScrollToTop>
         
     </BrowserRouter>
   )
