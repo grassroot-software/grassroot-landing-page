@@ -9,6 +9,8 @@ import Programs from './pages/programs/Programs'
 
 import ScrollToTop from './ScrollWrapper'
 
+import Welcome from './pages/static/register/Welcome'
+import RegisterError from './pages/static/register/Error'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
           <Route index element = {<Home/>}/>
           <Route path ='about_grassroot' element = {<About/>}/>
           <Route path ='discord' element = {<Community/>}/>
+          <Route path ='welcome' element = {<Welcome/>}/>
+          <Route path ='register_error' element = {<RegisterError/>}/>
           <Route path ='payments' element = {<Payments/>}/>
           <Route path ='signup' element = {<Signup/>}/>
           <Route path ='programs' element = {<Programs/>}/>
