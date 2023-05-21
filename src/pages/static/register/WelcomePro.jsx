@@ -23,11 +23,6 @@ function Welcome(infos) {
         }
     }, 1000)
 
-    // Redirection
-    const redirectToPayment = () => {
-        window.location.href = '/payments'
-    }
-
     return (
         <>
             <Navbar></Navbar>
@@ -39,7 +34,7 @@ function Welcome(infos) {
                     <div className="header2__content">
                         <h2>Welcome To Grassroot Software</h2>
                         <p className='p-big'>Congratulations {username}, your registration at Grassroot Software Academy was successful. Your personal career coach will contact you in 24hrs.</p>
-                        <button onClick={redirectToPayment} className='btnSubmit'>Go to payement</button>
+                        <a href='/payments' className='btnSubmit'>Go to payement</a>
                     </div>
                 </div>
             </div>

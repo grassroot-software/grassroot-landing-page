@@ -1,4 +1,5 @@
 import { getFirestore, query, getDocs, collection, where, doc, setDoc } from "firebase/firestore";
+import LoadingSpinner from "../../../components/loadSpinner/LoadingSpinner";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -68,7 +69,12 @@ function sendUserInfos(
         }
     }; sender(fullName)
 
+    return (
+        <>
+        <LoadingSpinner />
+        </>
+    )
 
 }
 
-export default sendUserInfos
+export { db, sendUserInfos };
