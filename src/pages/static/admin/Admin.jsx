@@ -13,8 +13,7 @@ function Admin() {
             querySnapshot.forEach((doc) => {
                 users.push({ ...doc.data() });
             });
-            console.log(data)
-            setData(users);
+            setData(users.reverse());
         });
         return () => unsubscribe();
     })

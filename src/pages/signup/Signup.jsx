@@ -7,12 +7,13 @@ import { GiCheckMark } from 'react-icons/gi'
 import '../home/home.css'
 import './signup.css'
 import { Link } from "react-router-dom"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { sendUserInfos } from "../../features/users/details/send_user_infos"
+import { query, getDocs, collection, where } from "firebase/firestore"
+import { db } from '../../features/users/firebase'
 
 
 const Signup = () => {
-
     // Get user data from the form
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -23,6 +24,17 @@ const Signup = () => {
     const [country, setCountry] = useState("");
     const [preferred_course, setPreferedCourse] = useState("");
     const [one_on_one_mentorship, setOneOnOneMentorship] = useState("");   
+    const [docs_from_firebase, setDocs] = useState([])
+
+    const getDocsFromFirebase = async () => {
+        try {
+            const q = query(collection(db, "users"), where("email", "==", email));
+            const docs = await getDocs(q);  
+            setDocs(docs)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -36,9 +48,13 @@ const Signup = () => {
             country,
             preferred_course,
             one_on_one_mentorship,
+            docs_from_firebase
         );     
     }
-
+    
+    useEffect(() => {
+        getDocsFromFirebase();
+    },);
 
     // interface formDataType {[key:string]: FormDataEntryValue}
     // const responseBody: formDataType = {}

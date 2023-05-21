@@ -1,23 +1,5 @@
-import { getFirestore, query, getDocs, collection, where, doc, setDoc } from "firebase/firestore";
-import LoadingSpinner from "../../../components/loadSpinner/LoadingSpinner";
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyCuCrWXvg1EAgstqvJ7fM-_gW5UWlUJywU",
-    authDomain: "grassroot-55632.firebaseapp.com",
-    projectId: "grassroot-55632",
-    storageBucket: "grassroot-55632.appspot.com",
-    messagingSenderId: "879754475437",
-    appId: "1:879754475437:web:6437151e6edb021f9c5324"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app)
+import { collection, doc, setDoc } from "firebase/firestore";
+import { db } from '../firebase'
 
 function sendUserInfos(
     firstName,
@@ -29,16 +11,14 @@ function sendUserInfos(
     country,
     preferred_course,
     one_on_one_mentorship,
+    docs_from_firebase
 ) {
-
     const fullName = firstName + ' ' + lastName
 
     // Send data to firebase
     const sender = async (fullName) => {
-        try {
-            const q = query(collection(db, "users"), where("email", "==", email));
-            const docs = await getDocs(q);
-            if (docs.docs.length === 0) {
+        try {            
+            if (docs_from_firebase.docs.length === 0) {
                 await setDoc(doc(collection(db, "users"), fullName + ' [' + email + ']'), {
                     email: email,
                     firstName: firstName,
@@ -67,14 +47,7 @@ function sendUserInfos(
         } catch (error) {
             console.log(error);
         }
-    }; sender(fullName)
-
-    return (
-        <>
-        <LoadingSpinner />
-        </>
-    )
-
+    }; sender(fullName);
 }
 
 export { db, sendUserInfos };
