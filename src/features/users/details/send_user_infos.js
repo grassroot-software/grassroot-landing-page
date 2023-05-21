@@ -28,20 +28,9 @@ function sendUserInfos(
     country,
     preferred_course,
     one_on_one_mentorship,
-    payement_aggrement
 ) {
 
-    const _firstName = firstName
-    const _lastName = lastName
-    const _fullName = firstName + ' ' + lastName
-    const _email = email
-    const _phone_number = phone_number
-    const _ageRange = ageRange
-    const _gender = gender
-    const _country = country
-    const _preferred_course = preferred_course
-    const _one_on_one_mentorship = one_on_one_mentorship
-    const _payement_aggrement = payement_aggrement
+    const fullName = firstName + ' ' + lastName
 
     // Send data to firebase
     const sender = async (fullName) => {
@@ -49,27 +38,37 @@ function sendUserInfos(
             const q = query(collection(db, "users"), where("email", "==", email));
             const docs = await getDocs(q);
             if (docs.docs.length === 0) {
-                await setDoc(doc(collection(db, "users"), fullName), {
-                    email: _email,
-                    firstName: _fullName,
-                    lastName: _lastName,
-                    email: _email,
-                    phone_number: _phone_number ,
-                    ageRange: _ageRange,
-                    gender: _gender,
-                    country: _country,
-                    preferred_course: _preferred_course ,
-                    one_on_one_mentorship: _one_on_one_mentorship,
-                    payement_aggrement: _payement_aggrement,
+                await setDoc(doc(collection(db, "users"), fullName + ' [' + email + ']'), {
+                    email: email,
+                    firstName: firstName,
+                    lastName: lastName,
+                    phone_number: phone_number,
+                    ageRange: ageRange,
+                    gender: gender,
+                    country: country,
+                    preferred_course: preferred_course,
+                    one_on_one_mentorship: one_on_one_mentorship,
                 });
-                window.location.href = `/welcome?${firstName}`
+                // Switcher
+                switch (one_on_one_mentorship) {
+                    case "Yes":
+                        window.location.href = `/welcome_pro?${fullName}`
+                        break
+                    case "No":
+                        window.location.href = `/welcome?${fullName}`
+                        break
+                    default:
+                        window.location.href = `/signup`
+                }
             } else {
                 window.location.href = `/register_error?${firstName}`
             }
         } catch (error) {
             console.log(error);
         }
-    }; sender(_fullName);
+    }; sender(fullName)
+
+
 }
 
 export default sendUserInfos

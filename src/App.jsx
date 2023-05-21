@@ -10,6 +10,7 @@ import Programs from './pages/programs/Programs'
 import ScrollToTop from './ScrollWrapper'
 
 import Welcome from './pages/static/register/Welcome'
+import WelcomePro from './pages/static/register/WelcomePro'
 import RegisterError from './pages/static/register/Error'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path ='about_grassroot' element = {<About/>}/>
           <Route path ='discord' element = {<Community/>}/>
           <Route path ='welcome' element = {<Welcome/>}/>
+          <Route path ='welcome_pro' element = {<WelcomePro/>}/>
           <Route path ='register_error' element = {<RegisterError/>}/>
           <Route path ='payments' element = {<Payments/>}/>
           <Route path ='signup' element = {<Signup/>}/>

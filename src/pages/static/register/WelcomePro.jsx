@@ -3,7 +3,8 @@ import Footer from '../../../components/Footer';
 import { useState } from 'react';
 import HeaderImage from "../../../images/background3.jpg"
 
-function RegisterError() {
+
+function Welcome(infos) {
     // Try to Remove footer margin-top from css
     try {
         const footer = document.querySelector("footer")
@@ -23,8 +24,8 @@ function RegisterError() {
     }, 1000)
 
     // Redirection
-    const redirectToLearnPlateform = () => {
-        window.location.href = 'https://learn.grassroot.academy'
+    const redirectToPayment = () => {
+        window.location.href = '/payments'
     }
 
     return (
@@ -36,14 +37,16 @@ function RegisterError() {
                         <img src={HeaderImage} alt="Header bacground" />
                     </div>
                     <div className="header2__content">
-                        <h2>{username} you're already registered</h2>
-                        <button onClick={redirectToLearnPlateform} className='btnSubmit'>Go leaning plateform</button>
+                        <h2>Welcome To Grassroot Software</h2>
+                        <p className='p-big'>Congratulations {username}, your registration at Grassroot Software Academy was successful. Your personal career coach will contact you in 24hrs.</p>
+                        <button onClick={redirectToPayment} className='btnSubmit'>Go to payement</button>
                     </div>
                 </div>
             </div>
             <Footer></Footer>
         </>
     )
+
 }
 
-export default RegisterError
+export default Welcome
