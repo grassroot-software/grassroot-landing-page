@@ -15,6 +15,7 @@ import { db } from '../../features/users/firebase'
 
 const Signup = () => {
     // Get user data from the form
+    const [submit, setSubmit] = useState("Submit");
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
@@ -38,6 +39,7 @@ const Signup = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        setSubmit("Wait ...")
         sendUserInfos(
             firstName,
             lastName,
@@ -405,7 +407,7 @@ const Signup = () => {
                         <div ><input type="checkbox" id="checkbox" name="" required></input>
                             <label for="agreement"> I agree to my email, phone number and address being stored and used to receive automated communications about my application.  </label>
                         </div>
-                        <button type='submit' className='btnSubmit'>Submit</button>
+                        <button type='submit' className='btnSubmit'>{submit}</button>
                     </form>
                 </div>
 
