@@ -338,7 +338,8 @@ section{
         margin-top: 7rem;
    }
    .header2{
-    height: fit-content;
+        height: fit-content;
+        margin-top: 4rem;
     }
    .header2__content{
         width: var(--container-width-lg);
