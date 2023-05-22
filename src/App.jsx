@@ -1,11 +1,11 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/home/Home'
-import Payments from './pages/payments/Payments'
 import Community from './pages/community/Community'
 import Signup from './pages/signup/Signup'
 import Criteria from './pages/criteria/Criteria'
 import About from './pages/about/About'
 import Programs from './pages/programs/Programs'
+import PaymentForm from './pages/makePayment/PaymentForm'
 
 import ScrollToTop from './ScrollWrapper'
 
@@ -27,7 +27,7 @@ const App = () => {
           <Route path ='welcome_pro' element = {<WelcomePro/>}/>
           <Route path ='register_error' element = {<RegisterError/>}/>
           <Route path ='admin' element = {<Admin/>}/>
-          <Route path ='payments' element = {<Payments/>}/>
+          <Route path ='payment'element = {<PaymentForm />} />
           <Route path ='signup' element = {<Signup/>}/>
           <Route path ='programs' element = {<Programs/>}/>
           <Route path ='criteria' element = {<Criteria/>}/>

@@ -33,7 +33,7 @@ function sendUserInfos(
                 // Switcher
                 switch (one_on_one_mentorship) {
                     case "Yes":
-                        window.location.href = `/payments`
+                        window.location.href = `/payment`
                         break
                     case "No":
                         window.location.href = `/welcome?${fullName}`
