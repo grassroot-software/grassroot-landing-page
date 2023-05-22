@@ -1,0 +1,29 @@
+.__users {
+    margin: 2rem 0;
+}
+.__admin_component {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.__user__item {
+    display: grid;
+    text-align: left;    
+    margin-bottom: 1.5rem;
+    border: 2px solid orange;
+    padding: 1rem 0.4rem;
+    border-radius: 10px;
+}
+
+.__user__item_name {
+    display: flex;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.__user__item_info span {
+    font-weight: bold;
+}
