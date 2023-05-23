@@ -6,12 +6,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCuCrWXvg1EAgstqvJ7fM-_gW5UWlUJywU",
-    authDomain: "grassroot-55632.firebaseapp.com",
-    projectId: "grassroot-55632",
-    storageBucket: "grassroot-55632.appspot.com",
-    messagingSenderId: "879754475437",
-    appId: "1:879754475437:web:6437151e6edb021f9c5324"
+    apiKey: "AIzaSyCBI5l8a0OPKqRORHG6loSRH4cXpkkxQ4I",
+    authDomain: "grassroot-landing-page.firebaseapp.com",
+    projectId: "grassroot-landing-page",
+    storageBucket: "grassroot-landing-page.appspot.com",
+    messagingSenderId: "774747645727",
+    appId: "1:774747645727:web:73e4e317b5aab4481ef22a"
 };
 
 // Initialize Firebase

@@ -1,8 +1,15 @@
+.__admin {
+    display: grid;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .__users {
     margin: 2rem 0;
 }
 .__admin_component {
-    display: grid;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
@@ -26,4 +33,15 @@
 
 .__user__item_info span {
     font-weight: bold;
+}
+
+.isAdmin {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.isAdmin button {
+    border-radius: 5px;
 }
