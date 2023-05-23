@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Image from '../../images/payment2.jpg'
 
-import "./payments.css"
+import './payments.css'
 import '../home/home.css'
 import { AiFillCaretRight } from 'react-icons/ai'
 
