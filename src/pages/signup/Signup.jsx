@@ -96,7 +96,7 @@ const Signup = () => {
                         </article>
                         <h2 className='signup_option_h2'>Payment and cancellation</h2>
                         <article className='signup_option'>
-                            <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <Link to="/payments" className="payment_a">here.</Link></h4>
+                            <h4 className='signup_option_h4_'>For details on our Payment and Cancellation Terms & Conditions, Click <Link to="/payment" className="payment_a">here.</Link></h4>
                         </article>
                     </div>
 
