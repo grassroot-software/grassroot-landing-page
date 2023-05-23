@@ -104,7 +104,7 @@ const Signup = () => {
                         <label className='form-label'>First Name</label><input type='text' name='firstName' onChange={(e) => setFirstName(e.target.value)} required />
                         <label className='form-label'>Last Name</label><input type='text' name='lastName' onChange={(e) => setLastName(e.target.value)} required />
                         <label className='form-label'>Email Address</label><input type='email'  name='email' onChange={(e) => setEmail(e.target.value)} required />
-                        <label className='form-label'>Phone Number</label><input type='tel' pattern= '[0-9]{3}-[0-9]{3}-[0-9]{4}' name='phoneNumber' onChange={(e) => setPhoneNumber(e.target.value)} required />
+                        <label className='form-label'>Phone Number</label><input type='tel' name='phoneNumber' onChange={(e) => setPhoneNumber(e.target.value)} required />
                         <label className='form-label' for="age" >Age</label>
                         <select name="age" id="age" onChange={(e) => setAgeRange(e.target.value)} required>
                             <option value=" " disabled selected hidden>Please Select</option>
