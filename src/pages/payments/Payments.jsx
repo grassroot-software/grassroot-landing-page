@@ -17,7 +17,7 @@ const Payments = () => {
         Terms & Conditions for Payment and Cancellation for our Learning Programmes.
       </SmallerHeader>
 
-      <section >
+      <section className="__payment__section">
         <div className='container about__Vision-container'>
           <div className='commnunity__image'>
             <p className="__std">

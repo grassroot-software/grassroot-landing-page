@@ -2,12 +2,12 @@
     margin-bottom: 2rem;
 }
 
-section {
+.__payment__section {
     margin-top: 2rem;
 }
 
 @media screen and (max-width: 600px) {
-    section {
+    .__payment__section {
         margin-top: 2rem;
     }
 }
