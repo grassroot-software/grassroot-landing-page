@@ -6,7 +6,7 @@ import Criteria from './pages/criteria/Criteria'
 import About from './pages/about/About'
 import Programs from './pages/programs/Programs'
 import PaymentForm from './pages/makePayment/PaymentForm'
-
+import Payments from './pages/payments/Payments'
 import ScrollToTop from './ScrollWrapper'
 
 import Welcome from './pages/static/register/Welcome'
@@ -28,6 +28,7 @@ const App = () => {
           <Route path ='register_error' element = {<RegisterError/>}/>
           <Route path ='admin' element = {<Admin/>}/>
           <Route path ='payment'element = {<PaymentForm />} />
+          <Route path ='payments'element = {<Payments />} />
           <Route path ='signup' element = {<Signup/>}/>
           <Route path ='programs' element = {<Programs/>}/>
           <Route path ='criteria' element = {<Criteria/>}/>

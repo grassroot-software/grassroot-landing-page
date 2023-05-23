@@ -90,7 +90,7 @@ export const faqs = [
     {
         id: 3,
         question: "What are the payment options and how do I start?",
-        answer1: ["Find out about available payment options", <Link to = '/payment'> here. </Link>,  "Eligible candidates may not pay full tuition until they graduate and start working. "]
+        answer1: ["Find out about available payment options", <Link to = '/payments'> here. </Link>,  "Eligible candidates may not pay full tuition until they graduate and start working. "]
     },
 ]
 

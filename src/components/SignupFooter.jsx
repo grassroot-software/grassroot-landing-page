@@ -9,7 +9,7 @@ const SignupFooter = () => {
                 <Link to= "/criteria">Eligibility Criteria <MdArrowForwardIos/> </Link>
            </article>
            <article className="payment__container">
-                <Link to= "/payment">Payment and Policies <MdArrowForwardIos/> </Link>
+                <Link to= "/payments">Payment and Policies <MdArrowForwardIos/> </Link>
            </article>
             
             
