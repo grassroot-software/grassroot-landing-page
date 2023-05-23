@@ -9,8 +9,8 @@ const About = () => {
 
         <div className='about__section-content'>
           <h1> About Grassroot</h1>
-          <p>
-            At Grassroot, there are no tuition fees for all Africans until you graduate and start working.
+          <p>At Grassroot, there are no tuition fees for all Africans until you graduate and start working.</p>
+          <p>            
             We believe quality education should be free and accessible to all.
             Our mission is to achieve the goal in training 1 million young Africans
             with skills they need to get hired in web development jobs and
