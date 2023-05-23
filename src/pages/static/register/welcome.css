@@ -1,3 +1,13 @@
 footer {
     margin-top: 0;
 }
+
+.header2__content p {
+    margin-bottom: 2rem;
+}
+
+.header2__content a {
+    background-color: var(--color-primary);
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem
+}
