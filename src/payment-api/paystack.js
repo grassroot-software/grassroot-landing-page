@@ -2,7 +2,7 @@ import PaystackPop from '@paystack/inline-js';
 
 export const handlePayment = (email) => {
 
-    const publicKey = 'pk_test_bc4396a87abbbf22ff958db759d20fd8928760a1'
+    const publicKey = 'pk_live_d03c757f196b860ca71587ed8f85aa14d800e81a'
 
     const handler = PaystackPop.setup({
     key: publicKey, // Replace with your public key
