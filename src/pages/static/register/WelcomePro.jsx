@@ -15,6 +15,10 @@ function Welcome(infos) {
     //     }
     // }, 1000)
 
+    function redirectToLearn() { 
+        window.location.href = "https://learn.grassroot.academy/sign_up"
+    }
+
     return (
         <>
             <Navbar></Navbar>
@@ -26,7 +30,7 @@ function Welcome(infos) {
                     <div className="header2__content">
                         <h2>Welcome To Grassroot Software</h2>
                         <p className='p-big'>Congratulations, your registration at Grassroot Software Academy was successful. Your personal career coach will contact you in 24hrs.</p>
-                        <a href="https://learn.grassroot.academy/sign_up">Click here to create your learning portal</a>
+                        <button onClick={redirectToLearn} type='button' className='btnSubmit'>Click here to  create your learning portal</button>
                     </div>
                 </div>
             </div>
