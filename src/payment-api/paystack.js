@@ -17,7 +17,9 @@ export const handlePayment = (email) => {
     callback: function(response){
       let message = 'Payment complete! Reference: ' + response.reference;
       alert(message);
-      window.location.href = "/welcome_pro"
+
+      // Send mail here
+      window.location.href = "/welcome"
     }
   });
 
