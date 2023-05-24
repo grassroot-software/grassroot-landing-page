@@ -12,8 +12,7 @@ const PaymentForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         handlePayment(email)
-        console.log(email)
-        
+        console.log(email)        
     }
 
     return (

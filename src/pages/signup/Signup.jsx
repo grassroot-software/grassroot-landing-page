@@ -20,17 +20,17 @@ const Signup = () => {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone_number, setPhoneNumber] = useState("");
-    const [ageRange, setAgeRange] = useState("");
-    const [gender, setGender] = useState("");
-    const [country, setCountry] = useState("");
+    // const [ageRange, setAgeRange] = useState("");
+    // const [gender, setGender] = useState("");
+    // const [country, setCountry] = useState("");
     const [preferred_course, setPreferedCourse] = useState("");
-    const [one_on_one_mentorship, setOneOnOneMentorship] = useState("");   
+    const [one_on_one_mentorship, setOneOnOneMentorship] = useState("");
     const [docs_from_firebase, setDocs] = useState([])
 
     const getDocsFromFirebase = async () => {
         try {
             const q = query(collection(db, "users"), where("email", "==", email));
-            const docs = await getDocs(q);  
+            const docs = await getDocs(q);
             setDocs(docs)
         } catch (error) {
             console.log(error)
@@ -45,15 +45,12 @@ const Signup = () => {
             lastName,
             email,
             phone_number,
-            ageRange,
-            gender,
-            country,
             preferred_course,
             one_on_one_mentorship,
             docs_from_firebase
-        );     
+        );
     }
-    
+
     useEffect(() => {
         getDocsFromFirebase();
     },);
@@ -103,28 +100,29 @@ const Signup = () => {
                     <form onSubmit={handleSubmit} >{/* add post action & on sucessful posting, redirect to join community page (write a function) */}
                         <label className='form-label'>First Name</label><input type='text' name='firstName' onChange={(e) => setFirstName(e.target.value)} required />
                         <label className='form-label'>Last Name</label><input type='text' name='lastName' onChange={(e) => setLastName(e.target.value)} required />
-                        <label className='form-label'>Email Address</label><input type='email'  name='email' onChange={(e) => setEmail(e.target.value)} required />
+                        <label className='form-label'>Email Address</label><input type='email' name='email' onChange={(e) => setEmail(e.target.value)} required />
                         <label className='form-label'>Phone Number</label><input type='tel' name='phoneNumber' onChange={(e) => setPhoneNumber(e.target.value)} required />
-                        <label className='form-label' for="age" >Age</label>
+
+                        {/* <label className='form-label' for="age" >Age</label>
                         <select name="age" id="age" onChange={(e) => setAgeRange(e.target.value)} required>
                             <option value=" " disabled selected hidden>Please Select</option>
                             <option value=" 17 and below">17 and below</option>
                             <option value=" 18 to 23">18 to 23</option>
                             <option value=" 24 to 35">24 to 35</option>
                             <option value=" 35 and above">35 and above</option>
-                        </select>
+                        </select> */}
 
 
-                        <label className='form-label' for="gender" >Gender</label>
+                        {/* <label className='form-label' for="gender" >Gender</label>
                         <select name="gender" id="gender" onChange={(e) => setGender(e.target.value)} required>
                             <option value=" " disabled selected hidden>Please Select</option>
                             <option value=" Female">Female</option>
                             <option value=" Male">Male</option>
                             <option value=" None or Binary">None or Binary</option>
                             <option value=" Prefer Not To Say">Prefer Not To Say</option>
-                        </select>
+                        </select> */}
 
-                        <label className='form-label' for="Country">Country</label>
+                        {/* <label className='form-label' for="Country">Country</label>
                         <select id="country" name="country" onChange={(e) => setCountry(e.target.value)} required>
                             <option value=" " disabled selected hidden>Please Select Your Country</option>
                             <option value="AF - Afghanistan">Afghanistan</option>
@@ -379,7 +377,7 @@ const Signup = () => {
                             <option value="YE - Yemen">Yemen</option>
                             <option value="ZM - Zambia">Zambia</option>
                             <option value="ZW - Zimbabwe">Zimbabwe</option>
-                        </select>
+                        </select> */}
 
 
                         <label className='form-label' for="courses" >Preferred course </label>

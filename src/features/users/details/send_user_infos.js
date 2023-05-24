@@ -6,9 +6,6 @@ function sendUserInfos(
     lastName,
     email,
     phone_number,
-    ageRange,
-    gender,
-    country,
     preferred_course,
     one_on_one_mentorship,
     docs_from_firebase
@@ -24,23 +21,11 @@ function sendUserInfos(
                     firstName: firstName,
                     lastName: lastName,
                     phone_number: phone_number,
-                    ageRange: ageRange,
-                    gender: gender,
-                    country: country,
                     preferred_course: preferred_course,
                     one_on_one_mentorship: one_on_one_mentorship,
                 });
                 // Switcher
-                switch (one_on_one_mentorship) {
-                    case "Yes":
-                        window.location.href = `/payment`
-                        break
-                    case "No":
-                        window.location.href = `/welcome?${fullName}`
-                        break
-                    default:
-                        window.location.href = `/signup`
-                }
+                window.location.href = `/payment`
             } else {
                 window.location.href = `/register_error?${firstName}`
             }
