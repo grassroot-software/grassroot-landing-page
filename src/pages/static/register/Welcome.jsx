@@ -16,8 +16,8 @@ function Welcome(infos) {
     //     }
     // }, 1000)
 
-    function redirectToLearn() { 
-        window.location.href = "https://learn.grassroot.academy/sign_up"
+    function redirectToLearn() {
+        window.location.href = "https://discord.gg/gHmmTe9JfF"
     }
 
     return (
@@ -31,7 +31,8 @@ function Welcome(infos) {
                     <div className="header2__content">
                         <h2>Welcome To Grassroot Software</h2>
                         <p className='p-big'>Congratulations, your registration at Grassroot Software Academy was successful. Your personal career coach will contact you in 24hrs.</p>
-                        <button onClick={redirectToLearn} type='button' className='btnSubmit'>Click here to  create your learning portal</button>
+                        <h2>YOU ARE NOT ALONE</h2>
+                        <button onClick={redirectToLearn} type='button' className='btnSubmit'>Click here  to  join our online  student community.</button>
                     </div>
                 </div>
             </div>
