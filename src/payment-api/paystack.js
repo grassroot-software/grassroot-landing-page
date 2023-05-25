@@ -26,7 +26,7 @@ export const handlePayment = (email) => {
       
       // Send mail here
       var templateParams = {  
-        name: ''
+        name: '',
       email: email
     };
     emailjs.send('service_0mcfmwp', 'template_9lsiwyp', templateParams, 's0FLFeKbLc9PuH-nc')
