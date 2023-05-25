@@ -400,7 +400,7 @@ const Signup = () => {
                             <label for="agreement"> I declare that the information I have provided is accurate and complete <br></br> <i><small>Providing false information will be in violation of our community guidelines.</small>*</i>  </label>
                         </div>
                         <div ><input type="checkbox" id="checkbox" name="" required></input>
-                            <label for="agreement"> I hereby acknowledge that I have clearly read and understood the </label>
+                            <label for="agreement">I hereby declare that I have clearly read and understood the payment terms and conditions</label>
                         </div>
                         <div ><input type="checkbox" id="checkbox" name="" required></input>
                             <label for="agreement"> I agree to my email, phone number and address being stored and used to receive automated communications about my application.  </label>
