@@ -43,10 +43,8 @@ function Admin() {
                     <h1>All Users ({data.length})</h1>
                     <div className="__users">
                         {data.map(({
-                            
                             email,
                             firstName,
-                          
                             lastName,
                             one_on_one_mentorship,
                             phone_number,
@@ -59,9 +57,6 @@ function Admin() {
                                 <div className="__user__item_info">
                                     <p>Email : <span>{email}</span></p>
                                     <p>Phone Number : <span>{phone_number}</span></p>
-                                    <p>Age Range : <span>{ageRange}</span></p>
-                                    <p>Gender : <span>{gender}</span></p>
-                                    <p>Country : <span>{country}</span></p>
                                     <p>Preferred Course : <span>{preferred_course}</span></p>
                                     <p>One on One Mentorship : <span>{one_on_one_mentorship}</span></p>
                                 </div>
