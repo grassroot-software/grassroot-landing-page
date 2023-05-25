@@ -25,13 +25,19 @@ export const handlePayment = (email) => {
       alert(message);
       
       // Send mail here
-      var templateParams = {  
-        name: '',
+      var templateParams = {        
       email: email
     };
-    emailjs.send('service_0mcfmwp', 'template_9lsiwyp', templateParams, 's0FLFeKbLc9PuH-nc')
+      emailjs.send('service_0mcfmwp', 'template_9lsiwyp', templateParams,'s0FLFeKbLc9PuH-nc')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+  
+     
       
-      window.location.href = "/welcome"
+      // window.location.href = "/welcome"
     }
   });
 
