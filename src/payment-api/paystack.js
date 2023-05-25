@@ -34,10 +34,9 @@ export const handlePayment = (email) => {
     }, function(error) {
        console.log('FAILED...', error);
     });
-  
-     
-      
-      // window.location.href = "/welcome"
+   
+      // Switch to welcome page
+      window.location.href = "/welcome"
     }
   });
 
