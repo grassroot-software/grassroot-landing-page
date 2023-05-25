@@ -385,7 +385,7 @@ const Signup = () => {
                             <option value=" " disabled selected hidden>Please select program of your choice</option>
                             <option value=" Software Engineering">Software Engineering</option>
                             <option value=" Full stack Ruby on Rails">Full stack Ruby on Rails</option>
-                            <option value=" None or Binary">Full stack Javascript</option>
+                            <option value=" Full stack Javascript">Full stack Javascript</option>
                             <option value=" Prefer Not To Say">Intermediate and Advanced HTML and CSS</option>
                         </select>
 
