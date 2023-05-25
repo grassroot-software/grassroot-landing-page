@@ -36,7 +36,7 @@ export const handlePayment = (email) => {
     });
    
       // Switch to welcome page
-      window.location.href = "/welcome"
+      // window.location.href = "/welcome"
     }
   });
 
