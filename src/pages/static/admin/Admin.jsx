@@ -43,11 +43,10 @@ function Admin() {
                     <h1>All Users ({data.length})</h1>
                     <div className="__users">
                         {data.map(({
-                            ageRange,
-                            country,
+                            
                             email,
                             firstName,
-                            gender,
+                          
                             lastName,
                             one_on_one_mentorship,
                             phone_number,
