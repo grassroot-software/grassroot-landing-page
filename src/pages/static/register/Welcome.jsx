@@ -30,7 +30,9 @@ function Welcome(infos) {
                     </div>
                     <div className="header2__content">
                         <h2>Welcome To Grassroot Software</h2>
-                        <p className='p-big'>Congratulations, your registration at Grassroot Software Academy was successful. Your personal career coach will contact you in 24hrs.</p>
+                        <p className='p-big'>Congratulations ! </p>
+                           <p className='p-big'> Your registration at Grassroot Software Academy was successful.
+                            Further information has been sent to your email</p>
                         <h2>YOU ARE NOT ALONE</h2>
                         <button onClick={redirectToLearn} type='button' className='btnSubmit'>Click here  to  join our online  student community.</button>
                     </div>
