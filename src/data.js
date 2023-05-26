@@ -95,7 +95,7 @@ export const faqs = [
     {
         id: 4,
         question: "Does Grassroot offer a variable certificate once I complete the program? ",
-        answer1: ["Grassroot  delivers IBM online training and issues IBM digital badges to qualifying students", <Link to = 'https://www.ibm.com/training/credentials/FAQ'> Learn more about IBM badges. </Link>"]
+        answer1: ["Grassroot  delivers IBM online training and issues IBM digital badges to qualifying students", <Link to = 'https://www.ibm.com/training/credentials/FAQ'> Learn more about IBM badges. </Link>, ""]
     },
 ]
 
