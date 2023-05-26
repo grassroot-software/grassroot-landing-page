@@ -52,7 +52,7 @@ function sendUserInfos(
                     default:
                         window.location.href = `/signup`
                 }
-                }, 5000)
+                }, 2000)
                 
                 
             } else {
