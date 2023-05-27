@@ -15,7 +15,7 @@ export const handlePayment = (email) => {
   const handler = PaystackPop.setup({
     key: publicKey, // Replace with your public key
     email: email,
-    amount: 50 * 100,
+    amount: 500 * 100,
     currency: 'GHS',
 
     onClose: function () {
