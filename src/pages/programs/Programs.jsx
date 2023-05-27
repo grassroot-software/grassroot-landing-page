@@ -163,7 +163,7 @@ const Programs = () => {
         <div className='container path__container'>
             
             <div className='path__section-content'>
-                <p> 1 on 1 Mentorship </p><br></br>
+                <p><h2>1 on 1 Mentorship </h2></p><br></br>
                 <h3> Get matched with a personal mentor who works in the industry</h3> 
                     <h3>Learn from their invaluable real-world career experiences.
                 </h3><br></br>
