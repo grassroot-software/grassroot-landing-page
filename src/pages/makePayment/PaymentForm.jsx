@@ -37,7 +37,7 @@ const PaymentForm = () => {
 
                     {/* Button */}
                     <button type="submit" disabled={loading} className="pay-button">
-                        {loading ? 'Processing...' : 'Proceed to pay GHS 50'}
+                        {loading ? 'Processing...' : 'Proceed to pay GHS 500'}
                     </button>
                 </form>
 
