@@ -198,8 +198,8 @@ const Programs = () => {
             <div className='path__section-content'>
                 <table>
                     <tr>
-                        <td>Pay Biweekly: </td>
-                        <td>$25 <MdKeyboardArrowDown/><br></br><small>Total cost</small></td>
+                        <td>Pay Biweekly (every two weeks): </td>
+                        <td>$25  <MdKeyboardArrowDown/><br></br><small>Total cost</small></td>
                     </tr>
                     <tr>
                         <td>Month to Month:</td>
