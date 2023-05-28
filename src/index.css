@@ -57,7 +57,7 @@ h2{
     font-size: 2rem;
 }
 a{
-    color: var(--color-gray-100);
+    color: var(--color-secondary);
     transition: var(--transition);
 }
 .payment_a{
