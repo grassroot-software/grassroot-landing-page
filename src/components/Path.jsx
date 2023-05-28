@@ -54,7 +54,8 @@ const Path = () => {
             <div className='path__section-content'>
                 <h2> Verified Certificate </h2><br></br>
                 
-                <p><GiCheckMark/> Grassroot delivers IBM online training and issues IBM digital badges to qualifying students<br></br><a href="https://www.ibm.com/training/credentials/FAQ">Learn More About IBM digital badges</a></p>
+                <p><GiCheckMark/> Grassroot delivers IBM online training and issues IBM digital badges to qualifying students</p>
+<p><a href="https://www.ibm.com/training/credentials/FAQ">Learn More About IBM digital badges</a></p>
             </div>
         </div>
     </section>
