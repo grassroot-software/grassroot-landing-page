@@ -163,7 +163,7 @@ const Programs = () => {
         <div className='container path__container'>
             
             <div className='path__section-content'>
-                <p><h2>1 on 1 Mentorship </h2></p><br></br>
+                <h2>1 on 1 Mentorship </h2><br></br>
                 <h3> Get matched with a personal mentor who works in the industry</h3> 
                     <h3>Learn from their invaluable real-world career experiences.
                 </h3><br></br>
@@ -198,12 +198,12 @@ const Programs = () => {
             <div className='path__section-content'>
                 <table>
                     <tr>
-                        <td>Pay Upfront: </td>
-                        <td>$2,700 <MdKeyboardArrowDown/><br></br><small>Total cost</small></td>
+                        <td>Pay Biweekly: </td>
+                        <td>$25 <MdKeyboardArrowDown/><br></br><small>Total cost</small></td>
                     </tr>
                     <tr>
                         <td>Month to Month:</td>
-                        <td>$400 <MdKeyboardArrowDown/><br></br><small>Monthly payment</small></td>
+                        <td>$50 <MdKeyboardArrowDown/><br></br><small>Monthly payment</small></td>
                     </tr>
                     <tr>
                         <td>Deferred Tuition: <br></br>pay us when you've secured a job</td>
