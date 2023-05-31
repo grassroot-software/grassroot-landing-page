@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.jpg'
 
 
 const Footer = () => {
@@ -16,19 +16,7 @@ const Footer = () => {
                 network of remote employers home and abroad. To accelerate the Digital revolution in Africa and lift lives out of poverty .
                 </p>
             </article>
-            <article>
-                <h4> Hyperlinks</h4>
-                <a href='/' > Grassroot</a>
-                <a href='/about_grassroot'> About Us</a>
-                
-                
-                
-            </article>
-            <article>
-                <h4> Get Started</h4>
-                <a href='/signup'>Register </a>
-                <a href='https://learn.grassroot.academy/sign_in'>Login </a>
-            </article>
+          
             <article>
                 <h4> Contact Us</h4>
                 <a href='mailto:Management@grassroot.academy' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
