@@ -2,7 +2,7 @@ import SmallerHeader from "../../components/SmallerHeader"
 import HeaderImage from "../../images/community.jpg"
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import MockUpImage from '../../images/logo.jpg'
+import MockUpImage from '../../images/logo.png'
 import {AiFillCaretRight} from 'react-icons/ai'
 
 import '../home/home.css'
