@@ -389,12 +389,12 @@ const Signup = () => {
                             <option value=" Prefer Not To Say">Intermediate and Advanced HTML and CSS</option>
                         </select>
 
-                        <label className='form-label' for="payment agreement" ><b>1 on 1 mentorship - A career coach will be assigned to you.</b> [500 GHC Processing fee]
+                        <label className='form-label' for="payment agreement" ><b>1 on 1 mentorship - A career coach will be assigned to you.</b> [150 GHC Processing fee]
                         </label>
                         <select name="payment agreement" id="payment agreement" onChange={(e) => setOneOnOneMentorship(e.target.value)} required>
                             <option value=" " disabled selected hidden>Please Select</option>
                             <option value="Yes">Yes</option>
-                            <option value="No">No</option>
+                            {/* <option value="No">No</option> */}
                         </select>
                         <div ><input type="checkbox" id="checkbox" name=""></input>
                             <label for="agreement"> I declare that the information I have provided is accurate and complete <br></br> <i><small>Providing false information will be in violation of our community guidelines.</small>*</i>  </label>

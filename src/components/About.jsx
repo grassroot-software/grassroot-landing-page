@@ -16,6 +16,7 @@ const About = () => {
             with skills they need to get hired in web development jobs and
             connect them to our network of remote employers home and abroad.
           </p>
+          
           <p>
             During the full-time technical curriculum, students spend 4 to 5 months learning the most in-demand
             skills in web development, developing thier technical skills, building projects,
