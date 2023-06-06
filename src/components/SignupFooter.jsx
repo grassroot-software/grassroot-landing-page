@@ -7,12 +7,12 @@ const SignupFooter = () => {
         <div className="container SignupFooter__container">
            <article>
                 <Link to= "/criteria">Eligibility Criteria <MdArrowForwardIos/> </Link>
-           </article>
-    /*
+           </article>/
+    
            <article className="payment__container">
-                <Link to= "/payments">Payment and Policies <MdArrowForwardIos/> </Link>
+                Payment and Policies
            </article>
-           */
+           
             
             
         </div>
