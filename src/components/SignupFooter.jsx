@@ -8,9 +8,11 @@ const SignupFooter = () => {
            <article>
                 <Link to= "/criteria">Eligibility Criteria <MdArrowForwardIos/> </Link>
            </article>
+    /*
            <article className="payment__container">
                 <Link to= "/payments">Payment and Policies <MdArrowForwardIos/> </Link>
            </article>
+           */
             
             
         </div>
