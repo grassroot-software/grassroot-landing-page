@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+/* import { Link } from "react-router-dom"
 import SmallerHeader from "../../components/SmallerHeader"
 import HeaderImage from "../../images/background2.jpg"
 import Navbar from '../../components/Navbar'
