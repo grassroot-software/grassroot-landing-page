@@ -17,7 +17,7 @@ function Welcome(infos) {
     // }, 1000)
 
     function redirectToLearn() {
-        window.location.href = "https://t.me/grassrootsoftwareacademy"
+        window.location.href = "https://discord.gg/gHmmTe9JfF"
     }
 
     return (
