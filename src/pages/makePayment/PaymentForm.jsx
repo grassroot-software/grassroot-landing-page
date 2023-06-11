@@ -22,7 +22,7 @@ const PaymentForm = () => {
             <div className="payment-form-container">
                 <div className="payment-description">
                     <h1>Make Payment</h1>
-                    <p>Enter email to confirm payment of GHS 500</p>
+                    <p>Enter email to confirm payment of GHS 150</p>
                 </div>
 
                 {/* Email Field */}
