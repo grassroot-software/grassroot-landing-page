@@ -28,6 +28,10 @@ export const links = [
         name: "How we work",
         path: '/programs'
     },
+    {
+        name: "Join students in telegram",
+        path: 'https://t.me/grassrootsoftwareacademy'
+    },
 ]
 
 export const programs = [
