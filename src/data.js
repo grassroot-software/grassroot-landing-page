@@ -90,7 +90,7 @@ export const faqs = [
     {
         id: 3,
         question: "What are the payment options and how do I start?",
-        answer1: ["In order to foot the bills on intternet for your assigned  personal coached, we do charge a recurring processing fee of 150 GHC.",<Link to = '/signup'> Click here to get started. </Link>,]
+        answer1: ["At Grassroot, there are no tuition fees.",<Link to = 'https://learn.grassroot.academy/sign_up'> Click here to get started </Link>,]
     },
     {
         id: 4,
